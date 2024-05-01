@@ -33,7 +33,7 @@ DialogDoNotShowAgain = "Não\nExibir de Novo"
 
 # DistributedAvatar.py
 WhisperNoLongerFriend = "%s saiu da sua lista de amigos."
-WhisperNowSpecialFriend = "%s agora é seu amigo secreto!"
+WhisperNowSpecialFriend = "%s agora é seu amigo Verdadeiro!"
 WhisperComingToVisit = "%s está vindo visitar você."
 WhisperFailedVisit = "%s tentou visitar você."
 WhisperTargetLeftVisit = "%s foi para algum outro lugar. Tente novamente!"
@@ -44,7 +44,7 @@ WhisperFriendComingOnline = "%s está entrando on-line!"
 WhisperFriendLoggedOut = "%s fez logout."
 WhisperPlayerOnline = "%s on-line em %s"
 WhisperPlayerOffline = "%s está off-line."
-WhisperUnavailable = "That player is no longer available for whispers."
+WhisperUnavailable = "Esse jogador não está mais disponível para cochicha."
 
 DialogSpecial = "ooo"
 DialogExclamation = "!"
@@ -61,7 +61,7 @@ SCEmoteNoAccessMsg = "Você não tem acesso\na esta emoção ainda."
 SCEmoteNoAccessOK = lOK
 
 ParentLogin = "Login de Pais"
-ParentPassword = "Senha de pais"
+ParentPassword = "Senha da conta dos pais"
 
 # ChatGarbler.py
 ChatGarblerDefault = ["blá"]
@@ -72,40 +72,38 @@ ChatManagerWhisperTo = "Cochichar com:"
 ChatManagerWhisperToName = "Cochichar com:\n%s"
 ChatManagerCancel = lCancel
 ChatManagerWhisperOffline = "%s está off-line."
-OpenChatWarning = 'Você ainda não tem nenhum "Amigo secreto"! Você não pode conversar com outros Toons a menos que eles sejam seus Amigos secretos.\n\nPara se tornar Amigo secreto de alguém, clique na pessoa e selecione "Segredos" no painel de detalhes. É claro que você sempre poderá conversar com alguém pelo Chat rápido.'
-OpenChatWarningOK = lOK
+OpenChatWaring = 'Para se tornar Amigo Verdadeiro de alguém, clique na pessoa e selecione "Amigos verdadeiros" no painel de detalhes.\n\nO Chat Rápido Plus também pode ser ativado, permitindo que os usuários conversem digitando palavras encontradas no dicionário Disney Chat Rápido Plus.\n\nPara ativar esses recursos ou saber mais, saia do Toontown e clique em Seja um SuperToon e selecione Gerenciar conta.  Faça login para editar suas "Opções da comunidade".\n\nSe você tem menos de 18 anos, precisa de uma conta de pais para gerenciar essas configurações.'
 UnpaidChatWarning = 'Depois que você assinar o serviço, poderá ativar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido.'
-UnpaidChatWarningPay = "Assine já!"
+UnpaidChatWarningPay = 'Assine'
 UnpaidChatWarningContinue = "Continuar avaliação gratuita"
-PaidNoParentPasswordWarning = 'Depois que você definir a sua senha de pais, poderá ativar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido.'
-UnpaidNoParentPasswordWarning = 'Once you have set your parent password, you can enable this button to chat with your friends using the keyboard. To set your parent password, exit Toontown and then click on "Preferences" under Member Services on the Toontown web page. Until then, you should chat with other Toons using SpeedChat.'
-PaidNoParentPasswordWarningSet = "Definir senha de pais agora!"
+PaidNoParentPasswarning = 'Use este botão para conversar com seus amigos usando o teclado, ativá-lo através do seu gerenciador de conta no site de Toontown. Até lá, você pode conversar usando chat rápido'.
+UnpaidParentPasswarning = 'Isto é para o chat rápido Plus, que permite aos usuários conversar por digitar palavras encontradas no dicionário Disney chat rápido Plus. Para ativar esse recurso, saia do Toontown e clique em Seja um SuperToon. Selecione Gerenciar a Conta e faça o login para editar suas "Configurações da comunidade". Se você tiver menos de 18, você precisará de uma conta de pais para generenciar essas configurações.'
+PaidNoParentPasswordWarningSet = "Defina suas configurações da comunidade agora!"
 PaidNoParentPasswordWarningContinue = "Continuar jogando"
 PaidParentPasswordUKWarning = 'Depois que o Chat estiver ativado, você poderá usar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido.'
 PaidParentPasswordUKWarningSet = "Ativar Chat agora!"
 PaidParentPasswordUKWarningContinue = "Continuar jogando"
 NoSecretChatWarningTitle = "Controles disponíveis aos pais"
-NoSecretChatWarning = 'Para conversar com um amigo, o recurso Amigos secretos deve estar ativado. As crianças precisam que seus pais façam login e insiram a senha de pais para conhecer o recurso Amigos secretos.'
-RestrictedSecretChatWarning = 'Para pegar ou digitar um segredo, você deve inserir a Senha de pais. Você pode desativar esta solicitação alterando as suas opções de Amigos secretos.'
+NoSecretChatWarning = 'Para conversar com um amigo, o recurso Amigos verdadeiros deve estar ativado. As crianças precisam que seus pais visitem o site de Toontown para conhecer o recurso Amigos verdadeiros.'
+RestrictedSecretChatWarning = 'Para pegar ou digitar um código de amigo Verdadeiro, loga com a Conta de pais. Você pode desativar esta solicitação alterando as suas opções de Amigos verdadeiros.'
 NoSecretChatWarningOK = lOK
 NoSecretChatWarningCancel = lCancel
-NoSecretChatWarningWrongPassword = 'Esta não é a senha correta. Insira a senha de pais criada na compra desta conta. Não é a mesma senha usada para os jogos.'
-NoSecretChatAtAllTitle = "Chat de Amigos secretos"
+NoSecretChatWarningWrongPassword = 'Esta não é a conta correta. Loga com a conta de pais que está vinculado nessa conta.'
+NoSecretChatAtAllTitle = "Bate-papo Aberto com Amigos verdadeiros"
+NoSecretChatAtAll = 'Bate-papo Aberto com Amigos verdadeiros permite amigos da vida-real converse abertamente um com o outro por meio de um Código de Amigo Verdadeiro que deve ser compartilhado fora do jogo.\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em Seja um Super Toon e selecciona Generenciar a conta.  "Configurações da comunidade". Se você tiver menos de 18, você precisará de uma conta de pais para generenciar essas configurações.'
+NoSecretChatAtAllAndNoWhitelistTitle = "Botão de chat"
 # not sure what this should do in the new world order
-NoSecretChatAtAll = 'Para conversar com um amigo, o recurso Amigos secretos deve estar ativado. O recurso Amigos secretos só permite que um membro converse com outro mediante um código secreto que deve ser comunicado fora do jogo.\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown.'
-NoSecretChatAtAllAndNoWhitelistTitle = "Botão de Chat"
-# not sure what this should do in the new world order
-NoSecretChatAtAllAndNoWhitelist = "Você pode usar o botão azul de Chat para conversar com outros Toons utilizando o recurso Speedchat Plus ou Abrir Chat com Amigos secretos.\n\nSpeedchat Plus é um bate-papo em que os usuários podem conversar utilizando o dicionário Disney SpeedChat Plus.\n\nAbrir Chat com Amigos secretos é um bate-papo em que os amigos podem conversar livremente entre si após fornecer um Código de Amigo Secreto que deve ser comunicado fora do jogo.\n\nPara ativar ou obter uma descrição completa de cada um desses recursos, saia do Toontown e, em Serviços de Associado, no site do Toontown, clique em \"Preferências\"."
+NoSecretChatAtAllAndNoWhitelist = 'Você pode usar o botão de Chat  para comunicar com outros Toons por usar Chat Rápido Plus ou Bate-papo Aberto com Amigos verdadeiros.\n\nO Chat Rápido Plus é um tipo de chat de forma que os usuários se comunicam por usar o dicionário Disney Chat Rápido Plus.\n\nBate-papo Aberto com Amigos verdadeiros permite amigos da vida-real converse abertamente um com o outro por meio de um Código de Amigo Verdadeiro que deve ser compartilhado fora do jogo.\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em Seja um Super Toon e selecciona Generenciar a conta.  "Configurações da comunidade". Se você tiver menos de 18, você precisará de uma conta de pais para generenciar essas configurações.'
 NoSecretChatAtAllOK = lOK
-ChangeSecretFriendsOptions = "Alterar opções de Amigos secretos"
-ChangeSecretFriendsOptionsWarning = "\nInsira a senha de pais para alterar suas opções de Amigos secretos."
-ActivateChatTitle = "Opções de Amigos secretos"
+ChangeSecretFriendsOptions = "Alterar opções de Amigos verdadeiros"
+ChangeSecretFriendsOptionsWarning = "\nInsira a senha da conta dos pais para alterar suas opções de Amigos verdadeiros."
+ActivateChatTitle = "Opções de Amigos verdadeiros"
 
 WhisperToFormat = "Para %s %s"
 WhisperToFormatName = "Para %s"
 WhisperFromFormatName = "%s cochicha"
 
-ThoughtOtherFormatName = "%s pensa"
+ThoughtOtherFormatName = "%s pensam"
 ThoughtSelfFormatName = "Você pensa"
 
 from otp.otpbase.OTPModules import TextProperties
@@ -148,94 +146,414 @@ grey = TextProperties()
 grey.setTextColor(0.5, 0.5, 0.5, 1)
 TextPropertiesManager.getGlobalPtr().setProperties('cinza', grey)
 
-ActivateChat = """O recurso Amigos secretos só permite que um associado converse com outro mediante um código secreto que deve ser comunicado fora do jogo. Para obter uma descrição completa do recurso, clique aqui: O recurso Amigos secretos não é moderado nem supervisionado. Se os pais deixarem seus filhos usarem a conta com o recurso Amigos secretos ativado, aconselhamos que eles mesmos supervisionem os filhos durante a brincadeira. Depois que for ativado, o recurso Amigos secretos ficará disponível até que alguém o desative. Ao ativar o recurso Amigos secretos, você reconhece que, apesar de haver alguns riscos inerentes a ele, você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los."""
+ActivateChat = """Os Amigos verdadeiros só permite que um associado converse com outro mediante um código de amigo Verdadeiro que deve ser comunicado fora do jogo. Os Amigos verdadeiros não é moderado nem supervisionado.
 
-ActivateChatYes = "Ativar"
+Por favor escolha uma das opções dos Amigos verdadeiros de Toontown:
+    
+    \1shadow\1Nenhuns Amigos verdadeiros\2 - Habilidade para fazer cada recurso de Amigos verdadeiros é desativado.
+    Isso oferece o mais alto nível de controle.
+    
+    \1shadow\1Restritos Amigos verdadeiros\2 - Requer a Senha da conta de pais para fazer cada recurso de Amigos verdadeiros.
+
+    \1shadow\1Unrestritos Amigos verdadeiros\2 - Depois que for ativado com a Senha da conta de pais,
+    não é necessário fornecer a Senha da conta dos pais para fazer cada novo recurso de Amigos verdadeiros.\1red\1Esta opção não é recomendando para menores de 13 anos.\2
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ao ativar os Amigos verdadeiros, você reconhece que, apesar de haver alguns riscos inerentes a ele, você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los."""
+
+ActivateChatYes = "Atualizar"
 ActivateChatNo = lCancel
 ActivateChatMoreInfo = "Mais informações"
 ActivateChatPrivacyPolicy = "Política de Privacidade"
-
 ActivateChatPrivacyPolicy_Button1A = "Version 1"
 ActivateChatPrivacyPolicy_Button1K = "Version 1"
 ActivateChatPrivacyPolicy_Button2A = "Version 2"
 ActivateChatPrivacyPolicy_Button2K = "Version 2"
 
-PrivacyPolicyText_1A = [""" """]
-PrivacyPolicyText_1K = [""" """]
-PrivacyPolicyText_2A = [""" """]
-PrivacyPolicyText_2K = [""" """]
-PrivacyPolicyText_Intro = [""" """]
+PrivacyPolicyText_1A = [
+"""
+Privacy Policy
+
+Q1 What types of information are WDIG sites collecting, and how are the sites collecting it?
+
+The majority of great products and services on our sites are offered without our collecting any personally identifiable information from you. You can surf WDIG's Web sites and view much of our terrific content anonymously. For instance, you can view news headlines at ABCNEWS.com without giving out any personally identifiable information.
+
+Information You Provide
+There are a few activities on our sites where the collection of personally identifiable information is necessary. Those activities include things like entering a contest or sweepstakes, making a purchase, or contacting us. When personally identifiable information is collected, you will know because you will have to fill out a form. For most activities, we collect only your name, e-mail address, birth date, gender, and zip code. When you make a purchase, we also collect your street and billing addresses, your phone number, and credit card information. Depending on what you purchase, we may also need to collect other personal information, like your clothing size.
+""","""
+Information Collected from You with Technology
+WDIG sites collect some information about you using technology, so it may not be readily apparent to you that it is being collected. For instance, when you come to our site your IP address is collected so that we know where to send information you are requesting. An IP address is often associated with the place from which you enter the Internet like your ISP (Internet service provider), your company, or your university. This information is not personally identifiable. WDIG sites use information collected through technology to make our sites more interesting and useful to you. This includes helping advertisers on our site design advertisements our Guests might like. We normally don't combine this type of information with personally identifiable information. However, we will combine this information with personally identifiable information to identify a visitor in order to enforce compliance with our house rules or terms of service or to protect our service, site, Guests, or others.
+
+What Are Cookies, and How Does WDIG Use Them?
+Cookies are pieces of information that a Web site sends to your computer while you are viewing the Web site. These pieces of information allow the Web site to remember important information that will make your use of that site more useful. WDIG and other Internet companies use cookies for a variety of purposes. For instance, DisneyStore.com uses cookies to remember and process the items in your shopping cart, and all WDIG sites use cookies to make sure kids don't enter unmoderated chat rooms.
+
+You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser (like Netscape Navigator or Internet Explorer) settings. Each browser is a little different, so look at your browser Help menu to learn the correct way to modify your cookies. If you turn cookies off, you won't have access to many WDIG features that make your Web experience more efficient -- like the features mentioned above -- and some of our services will not function properly.
+""","""
+Q2 How does WDIG use the personally identifiable information that has been collected?
+
+WDIG uses personally identifiable information in a limited number of ways. We use the information to complete transactions. For instance, if you purchase a fantasy team on ESPN.com, we use your information to process your order, or if you contact us for help we will use the information to contact you. We use information collected to notify you if you've won a game or contest. Information we collect is used to send you e-mail updates and newsletters about our sites. We also use the information you provide to send you WDIG e-mail promotions and special offers from our third-party sponsors.
+""","""
+Q3 Does WDIG share information with companies or other organizations that are not part of the WDIG family of sites?
+
+One of the most valuable assets of our business is you. We aren't in the business of selling information about our Guests. However, if there is a value for our Guests, we will share your information or send you messages on behalf of another company as described below. We will also share information for security reasons.
+Companies That Are "Standing in the Shoes" of WDIG
+Sometimes we hire companies to help us deliver products or services, like a shipping company that delivers a package. In those instances, we need to share your information with them. These companies are basically "standing in the shoes" of WDIG, and they are allowed to use the information only to deliver the product or service.
+""","""
+Companies Offering Promotions, Products, or Services
+On occasion, we offer promotions -- like sweepstakes or free subscriptions -- in conjunction with a sponsor. We will share your information with the sponsors if they need it to send you a product, such as a magazine subscription. We may share your information with those sponsors so that they can send you other special promotions they offer, but only if you give us your permission to do so, and we will share it only with that specific sponsor. In addition, WDIG occasionally sends e-mail promotions out to our Guests on behalf of third-party sponsors. In this instance, we don't share your name with the third party -- we do the mailing for them. Again, we only send these promotions to you if you've given your permission.
+
+Content Partners
+On some of our sites, we provide content that is created by a third-party partner Web site. For instance, ESPN.com provides shopping opportunities with third parties. In some instances the third-party sites will collect information in order to facilitate the transaction or to make the use of their content more productive and efficient. In these circumstances the information collected is shared between WDIG and our third-party sponsors.
+
+Third-Party Advertisers and Network Advertisers
+To help increase privacy protections for our Guests, WDIG allows advertising on our sites from only those companies that have their own privacy policy. Once you've clicked on an advertisement and have left WDIG sites, our privacy policy no longer applies. You must read the privacy policy of the advertiser to see how your personal information will be handled on their site.
+""","""
+In addition, many business advertisements are managed and placed on our site by third-party companies. These companies are called "network advertisers." Network advertisers collect non-personally identifiable information when you click on or scan one of their banner advertisements. The information is collected using technology, so you may not realize it's being collected. The network advertisers collect this information so that they can show you ads that are more relevant and interesting to you. If you would like to read more about network advertisers or do not want network advertisers to collect this non-personally identifiable information about you, click here.
+
+Purchase or Sale of Businesses
+Online business is still in a very early stage and is changing and evolving rapidly. As WDIG continually looks for ways to improve our business, we may buy or sell a company. If we buy or sell a business, the names collected will likely be transferred as a part of the sale. Information about registrants will be used in the aggregate. However, if we buy a business, we will honor the requests that customers made of that business regarding e-mail communications. In the event that we sell a business, we will do everything in our power to ensure that the e-mail communications requests you made of us are honored.
+
+Organizations That Help Protect the Security and Safety of Our Guests and Our Sites
+We will give out personal information as required by law, for example, to comply with a court order or subpoena; to enforce our Terms of Service, or site or game rules; or to protect the safety and security of Guests and our sites.
+""","""
+Q4 What choices do I have about WDIG collecting, using, and sharing my information?
+
+It is possible for you to use much of our site without giving us any personally identifiable information. When you do register with us or give us personally identifiable information, you will have an opportunity at the time we collect your information -- to limit e-mail communications from WDIG and from our third-party partners. You can request at any time that WDIG not send future e-mail to you either by unsubscribing from the communication or by contacting us at memberservices@help.go.com. Also, as mentioned above, there are ways to limit the information collected through technology -- though some of our features won't work if you decide to do this.
+""","""
+Q5 What type of security does WDIG provide?
+
+The importance of security for all personally identifiable information associated with our Guests is of utmost concern to us. WDIG takes technical, contractual, administrative, and physical security steps to protect all visitors' information. When you provide credit card information, we use secure socket layer (SSL) encryption to protect it. There are some things that you can do to help protect the security of your information as well. For instance, never give out your Password, since this is what is used to access all of your account information. Also remember to sign out of your account and close your browser window when you finish surfing the Web, so that other people using the same computer won't have access to your information.
+""","""
+Q6 How can I access my account information?
+
+You can access the personally identifiable information you gave us during registration at our Account Options center available from (http://play.toontown.com).  Log-in with your account name and parent password. There are instructions on the start page to help you recover your password if you've forgotten it.
+You can also contact us by clicking "Contact Us" in the footer on any WDIG page and selecting "Registration/Personalization" in the drop down box, or send an e-mail directly to memberservices@help.go.com. Please include information in the e-mail that will help us identify your account so we can assist you with your inquiry or request.
+""","""
+Q7 Whom do I contact with questions or concerns about this privacy policy?
+
+If you need further assistance, please send an e-mail with your questions or comments to memberservices@help.go.com
+write us at:
+
+Member Services
+Walt Disney Internet Group
+506 2nd Avenue
+Suite 2100
+Seattle, WA 98104
+
+Walt Disney Internet Group is a licensee of the TRUSTe Privacy Program. If you believe that WDIG has not responded to your inquiry or your inquiry has not been satisfactorily addressed, please contact TRUSTe http://www.truste.org/users/users_watchdog.html.
+*You must be 18 or have the permission of your parent or guardian to dial this number.
+""",
+]
+PrivacyPolicyText_1K = [
+"""
+Kids' Privacy Policy:
+We recognize the need to provide additional privacy protections for kids who visit our sites.
+
+Q1 What types of information are WDIG sites collecting about kids who are 12 and younger?
+
+Children can surf Disney.com or other WDIG sites, view content, and play some games without any personally identifiable information being collected. In addition, we occasionally do host some moderated chat rooms where no personally identifiable information is collected or posted. However, in some areas it is necessary to collect personally identifiable information from kids to allow participation in an activity (like entering a contest) or to communicate with our community (via e-mail or message boards).
+WDIG believes it is good policy not to collect more personally identifiable information from kids 12 and younger than is necessary for them to participate in our online activities. In addition, be aware that all sites that are targeted to children 12 and younger are prohibited by law from collecting more information than they need.
+
+The only personally identifiable information we collect from kids is first name, parent's e-mail address, and child's birth date. We collect birth date to validate a Guest's age. We may also collect personal information, like a pet's name, to help Guests remember their Log-in Name and Password if they forget them.
+
+We also allow parents to request at any time that the information collected about their child be removed from our database. If you would like to deactivate your child's account, please send an e-mail message to ms_support@help.go.com with your child's Log-in Name and Password requesting that the account be cancelled.
+""","""
+Q2 How does WDIG use and share the personally identifiable information that has been collected?
+
+No information collected from Guests 12 and younger is used for any marketing or promotional purposes whatsoever, either inside or outside Walt Disney Internet Group's family of sites.
+The information collected about kids 12 and younger is used only by WDIG Web sites to provide services (such as calendars) or to conduct some games or contests. Although Guests 12 and younger may be allowed to participate in some contests where information is collected, notification and prizes are sent to the parents' or guardians' e-mail address provided during the initial registration process. Publication of contest winners' full names, ages, or images for individuals 12 and younger require parental or guardian consent. Sometimes a nonidentifiable version of a child's name will be published. In those circumstances, parents may not be contacted again for permission.
+
+We do not allow kids 12 and younger to participate in unmoderated chat rooms.
+
+We will give out personal information about kids if required by law, for example, to comply with a court order or subpoena; to enforce our Terms of Service, or site or game rules; or to protect the safety and security of Guests and our sites.
+""","""
+Q3 Does WDIG notify parents about the collection of information on kids 12 and younger?
+
+Any time children 12 and younger register with us, we send an e-mail notification to their parent or guardian. In addition, we require parents to give express permission before we will allow their children to use e-mail, message boards, and other features where personally identifiable information can be made public to the Internet and shared with users of all ages.
+We also give parents 48 hours to refuse any registrations kids make in order to play games and contests. If we don't hear back, we assume it's ok for a child to be registered with us. Once a child has registered, he or she will be allowed to enter any future registration-based games and contests, and parents aren't notified again. In this instance, we use the information collected only to notify parents when a child has won a game or contest. We don't use this information for any other purpose.
+""","""
+Q4 How do parents access information about their kids?
+
+Here are three methods to review the information that has been collected about children who are 12 and younger.
+
+When parents give their children access to interactive features like message boards, they are required to establish a family account. Once a family account is established, the primary account holder can review the personally identifiable information of all family member accounts including a child's. You can access this information by logging in to your family account at the Your Account home page.
+
+If you are not already a member of any of the WDIG sites, you can review your child's personally identifiable information by logging in to your child's account at the Account Options Home Page. You will need to have your child's account name and password. There are instructions on the Your Account home page to help you recover your child's password if they've forgotten it.
+
+You can also contact Customer Service to view the information that has been collected from or about your child by sending an e-mail to ms_support@help.go.com. If you have not yet established a family account, you will need to have your child's user name and password. Please include information (child's account name, parent email address) in the email that will help us identify your child's account so we can assist you with your inquiry or request.
+""","""
+Q5 What type of security does WDIG provide?
+
+The importance of security for all personally identifiable information associated with our guests is of utmost concern to us. WDIG takes technical, contractual, administrative, and physical security steps to protect all visitors' information. When you provide credit card information, we use secure socket layer (SSL) encryption to protect it. There are some things that you can do to help protect the security of your information as well. For instance, never give out your Password, since this is what is used to access all of your account information. Also remember to sign out of your account and close your browser window when you finish surfing the Web so that other people using the same computer won't have access to your information.
+""","""
+Q6 How will WDIG notify parents if this privacy policy changes?
+
+If WDIG changes this privacy policy, we will notify parents via e-mail.
+
+Q7 Whom do I contact with questions or concerns about this privacy policy?
+
+If you need further assistance, please send an e-mail with your questions or comments to ms_support@help.go.com
+write us at:
+
+Member Services
+Walt Disney Internet Group
+506 2nd Avenue
+Suite 2100
+Seattle, WA 98104
+or call us at (509) 742-4698
+
+Walt Disney Internet Group is a licensee of the TRUSTe Privacy Program. If you believe that WDIG has not responded to your inquiry or your inquiry has not been satisfactorily addressed, please contact TRUSTe http://www.truste.org/users/users_watchdog.html.
+*You must be 18 or have the permission of your parent or guardian to dial this number.
+""",
+]
+PrivacyPolicyText_2A = [
+"""
+Updated: 11/06/2003
+
+When you registered with our site, we pledged to handle the personal information you provided safely and with great respect, including being clear about how we collect and use your personal information. As part of this commitment, we want to advise you of important changes we are making to our general privacy policy. These changes will apply to personal information you provided in the past as well as any personal information you may provide in the future. A separate FAQ page is available providing a summary of the key changes. We are also making changes in the form of our Kids' privacy policy. We encourage you to review the updated privacy policies in their entirety.
+
+You may accept, or "opt in" to, the terms of the updated general privacy policy in multiple ways: you may accept through an e-mail, at log-in, or through the privacy policy links, such as this, on one of our family of sites; alternatively, you may accept the updated privacy policy as part of a purchase on one of our family of sites. If you decide not to accept the updated general privacy policy, your data will continue to be handled under the previous privacy policy, your access to certain services within our sites will be limited, and you will continue to receive emails from us in accordance with your existing contact permissions.
+
+Please note that all guests who register after November 5, 2003, will automatically be covered by the updated privacy policy and no further action is required.  
+ 
+ 
+If you are an existing member and wish to accept, or OPT IN to, the changes, please select the ACCEPT Button. 
+""","""
+For over 75 years, The Walt Disney Company has taken great pride in the relationships that it has developed with its guests. In keeping with this tradition, we at the Walt Disney Internet Group are dedicated to protecting your privacy and handling any personal information we obtain from you with care and respect. This Privacy Policy is designed to answer your questions regarding our privacy policies and principles. 
+
+Kids' Privacy Policy:
+
+We recognize the need to provide additional privacy protections for children who visit our sites. To read about our protections for kids who are under the age of 13, click here.
+
+
+Q1 What information does this Privacy Policy cover? 
+Q2 What types of personally identifiable information do we collect about our guests?  
+Q3 How is your personally identifiable information used and shared? 
+Q4 What choices do you have about the collection, use, and sharing of your personally identifiable information? 
+Q5 What kinds of security measures do we take to safeguard your personally identifiable information? 
+Q6 How can you update your contact information and opt-out choices 
+Q7 How can you ask questions, or send us comments, about this Privacy Policy?  
+Q8 How will you know if we amend this Privacy Policy? 
+""","""
+Q1 What information does this Privacy Policy cover? 
+A1 Except as specifically described below in A2 and A6, this Privacy Policy applies only to personally identifiable information collected on the Web sites where this Privacy Policy is posted and does not apply to any other information collected by The Walt Disney Family of Companies through any other means. This Privacy Policy applies to use and sharing of personally identifiable information collected on and after the date that this Privacy Policy is posted. However, for guests who registered on our Web sites prior to the date that this Privacy Policy is posted, we will apply this Privacy Policy to personally identifiable information associated with that account only if the guest accepts the terms and conditions of this Privacy Policy. Once the guest has accepted these terms and conditions, this Privacy Policy will also apply to personally identifiable information collected from that guest prior to the date that this Privacy Policy is posted. In a similar fashion, we will apply this Privacy Policy to personally identifiable information collected in the course of Non-Registered Transactions (as defined in A3 below) that occurred prior to the date that this Privacy Policy is posted, but only if the guest accepts the terms and conditions of this Privacy Policy.
+""","""
+As used in this Privacy Policy, "The Walt Disney Family of Companies" includes The Walt Disney Company and all of its subsidiary and affiliated entities, including companies such as ABC and ESPN that generally do not offer their products and services under the "Disney" brand name, as well as companies that generally do offer their products and services under the "Disney" brand name. (At times, our Web sites refer to The Walt Disney Family of Companies as "The Walt Disney family of companies.") The Walt Disney Internet Group is a member of The Walt Disney Family of Companies, and is referred to in this Privacy Policy as "we," "us," "our," and "ourselves." 
+""","""
+In keeping with the traditions of The Walt Disney Company, we refer to customers of The Walt Disney Family of Companies as "guests." When this Privacy Policy uses the term "personally identifiable information," we mean information that identifies a particular individual, such as the individual's name, postal address, e-mail address, and telephone number. When other information, such as, for example, consumer product preferences, or number of children, is directly associated with personally identifiable information, this other information also becomes personally identifiable information for purposes of this Privacy Policy. Personally identifiable information is sometimes referred to in this Privacy Policy as "personal information." Finally, the terms of this Privacy Policy are subject to all applicable laws.
+""","""
+Q2 What types of personally identifiable information do we collect about our guests? 
+A2 We collect several types of personally identifiable information about our guests.
+
+Information You Provide to Us 
+
+Much of the personally identifiable information we receive comes directly from guests who are interested in obtaining various products and services from us. Typically, this information includes the guest's name, postal address, e-mail address, and telephone number. We may also collect other types of information such as gender, age, number of children, and personal interests, which we may associate with personally identifiable information. If you purchase products or services from us, we'll note, for example, credit card information, the type of services or products ordered or purchased, and the date of the order or purchase. We collect personal information when you register on, log on, or visit our Web sites, including when you participate in activities on our Web sites, such as sweepstakes, contests, games and promotional offers.
+""","""
+Information Collected Through Technology 
+
+We collect information through technology to make our sites more interesting and useful to you. For instance, when you come to one of our sites, we collect your IP address. An IP address is often associated with the portal through which you enter the Internet, like your ISP (Internet service provider), your company, or your university. Standing alone, your IP address is not personally identifiable. At times, we also use IP addresses to collect information regarding the frequency with which our guests visit various parts of our sites. We may combine this information with personally identifiable information.
+
+Our Web sites also use cookies. Cookies are pieces of information that a Web site sends to your computer while you are viewing the Web site. We and other companies use cookies for a variety of purposes. For instance, when you return to one of our sites after logging in, cookies provide information to the site so that the site will remember who you are. You can choose to have your computer warn you each time a cookie is being sent, or you can choose to turn off all cookies. You do this through your browser (like Netscape Navigator or Internet Explorer) settings. Each browser is a little different, so look at your browser Help menu to learn the correct way to modify your cookies. If you turn cookies off, you won't have access to many features that make your Web experience smoother, like the features mentioned above, and some of our services will not function properly. 
+""","""
+Our Web sites use a variety of technical methods for tracking purposes, including Web beacons. Web beacons are small pieces of data that are embedded in images on the pages of Web sites. We also use these technical methods to analyze the traffic patterns on our Web sites, such as the frequency with which our users visit various parts of our Web sites. These technical methods may involve the transmission of information either directly to us or to another party authorized by us to collect information on our behalf. We also use these technical methods in HTML e-mails that we send our guests to determine whether our guests have opened those e-mails and/or clicked on links in those e-mails. The information from use of these technical methods may be collected in a form that is personally identifiable.
+
+Many advertisements are managed and placed on our Web sites by third parties. These companies are called "network advertisers." Network advertisers who place advertisements on our Web sites may also use cookies and Web beacons to collect non-personally identifiable information when you click on or move your cursor over one of their banner advertisements. You may not realize this information is being collected. In some cases, we may have access to information from Web beacons and cookies used by network advertisers on our sites and this information may permit us to identify other sites that you have visited that are also associated with the network advertiser. Finally, once you've clicked on an advertisement and have left our Web sites, our Privacy Policy no longer applies and you must read the privacy policy of the advertiser to see how your personal information will be handled on their site.
+""","""
+Information That We Collect from Others 
+
+We may supplement personally identifiable information that we have collected directly from our guests with other information that we obtain from third parties and other members of The Walt Disney Family of Companies. In addition, we may obtain information about individuals who are not yet users of our Web sites or guests of The Walt Disney Family of Companies. In addition, When we associate information that we obtain from third parties or other members of The Walt Disney Family of Companies with personally identifiable information that we have collected under this Privacy Policy, we will treat the acquired information like the information that we collected ourselves and, except as permitted by this Privacy Policy, the information will not be shared with third parties.
+""","""
+Q3 How is your personally identifiable information used and shared? 
+A3 As described in detail below, The Walt Disney Family of Companies may use your personally identifiable information in many ways, including sending you promotional materials, and sharing your information with third parties so that these third parties can send you promotional materials. (By "promotional materials," we mean communications that directly promote the use of our Web sites, or the purchase of products or services.) As outlined below in A4, you may "opt-out" of certain uses of your personal information.
+""","""
+Disney Family of Companies, Licensees and Co-Branding Participants 
+
+Personally identifiable information collected under this Privacy Policy is shared among and used by The Walt Disney Family of Companies for many purposes. For example, The Walt Disney Family of Companies may use your personal information to send you promotional materials about goods and services (including special offers and promotions) either offered by The Walt Disney Family of Companies or offered by third parties. These promotional materials may be sent to you by postal mail, e-mail or other means. You may opt out of receiving these communications as provided in A4 below. Please keep in mind, however, that when you purchase or request products or services from The Walt Disney Family of Companies, promotional materials may accompany delivery of that product or service. We refer to sending you promotional materials in these circumstances as "Fulfillment Uses" of your personal information. Because these promotional materials accompany products or services that you have requested, your opt-outs for Individual Disney Companies and The Walt Disney Family of Companies under A4 below will not apply to any of these Fulfillment Uses.
+""","""
+The Walt Disney Family of Companies may also use your personal information for many purposes other than sending you promotional materials. (We refer to all of these types of uses of your personal information that do not involve the sending of promotional materials as "Operational Uses.") For example, we may use your information to complete transactions requested by you (such as your purchase of a product or service offered on our Web sites), or to send you administrative communications either about your account with us or about features of our Web sites, including any future changes to this Privacy Policy. As another example of Operational Uses, we may share your personal information with the Walt Disney World  Resort telephone reservations center so that the reservations center operators are able to respond immediately to your questions or requests when you call, rather than asking you to provide your information a second time. Because these uses of your personal information do not involve sending you promotional materials, your opt-outs for Individual Disney Companies and The Walt Disney Family of Companies under A4 below will not apply to any of these Operational Uses. 
+""","""
+In addition to using your personal information within The Walt Disney Family of Companies, The Walt Disney Family of Companies may share your personal information with companies that offer products and/or services under brand names of The Walt Disney Family of Companies. These companies are called "licensees." For example, a company that publishes and sells books under the "Disney" brand would be such a licensee. The Walt Disney Family of Companies may also share your information with companies that offer products and/or services that are co-branded using brand names of The Walt Disney Family of Companies. These companies are called "co-branding participants." For example, the Disney's Visa Card is co-branded with the bank that issues that credit card. When The Walt Disney Family of Companies shares personal information with third parties acting as licensees and co-branding participants, these licensees and co-branding participants are restricted by contract from using the personal information for any marketing or promotional purpose that is not related to a licensed or co-branded product or service. Finally, to further protect your privacy, these licensees and co-branding participants' use of personal information shared with them under this Privacy Policy is subject to the same opt-out rights (and limitations upon those rights) that apply to use of personal information by members of The Walt Disney Family of Companies under A4 below.
+""","""
+You may engage in transactions (such as purchasing products or services) without registering and logging on our Web sites. These transactions may be either with us or with other members of The Walt Disney Family of Companies. (We refer to all of these transactions that you engage in without registering and logging on our Web sites as "Non-Registered Transactions.") An example of a Non-Registered Transaction would be when you purchase items from the DisneyStore.com without registering and logging on that Web site. When you engage in Non-Registered Transactions, the opt-out choices described in A4 below will not be available to you, but your information will not be shared with third parties, and will not be used by any member of The Walt Disney Family of Companies to send you promotional materials other than the member involved in your transaction, except as separately permitted by other provisions of this Privacy Policy.
+""","""
+Finally, The Walt Disney Family of Companies may take your personally identifiable information and make it non-personally identifiable, either by combining it with information about other individuals (aggregating your information with information about other individuals), or by removing characteristics (such as your name) that make the information personally identifiable to you (de-personalizing your information). Given the nature of this information, there are no restrictions under this Privacy Policy upon the right of The Walt Disney Family of Companies to aggregate or de-personalize your personal information, and The Walt Disney Family of Companies may use and/or share with third parties the resulting non-personally identifiable information in any way.
+""","""
+Third Parties Offering Promotions, Products, or Services 
+
+Subject to your opt-out choices (see A4 below), The Walt Disney Family of Companies may share your personal information with selected third parties so that they can send you promotional materials about goods and services (including special offers and promotions) offered by them. (We call this type of sharing "promotional sharing" or sharing for "promotional purposes.") When sharing your information for promotional purposes, The Walt Disney Family of Companies attempts to select only reputable companies that offer high quality products and services. Moreover, The Walt Disney Family of Companies will not share your e-mail address with third parties for promotional purposes, except when you consent to such sharing in the course of your participation in a Sponsored Activity as described below. When The Walt Disney Family of Companies shares your personal information with a third party under any circumstance described in this "Third Parties Offering Promotions, Products, or Services" section, your personal information will become permanently subject to the information use and sharing practices of the third party, and the third party will not be restricted by this Privacy Policy with respect to its use and further sharing of your personal information.
+""","""
+In addition to the promotional sharing that is subject to your opt-out choices under A4 below, The Walt Disney Family of Companies may also share your information when you engage in certain activities on our sites that are sponsored by third parties, such as purchasing products or services offered by a third party, electing to receive information or communications from a third party, or electing to participate in contests, sweepstakes, games or other programs sponsored in whole or in part by a third party. The Walt Disney Family of Companies may also share your personal information when you respond to promotional materials from The Walt Disney Family of Companies and authorize a third party to use your personal information for purposes such as, for example, sending you additional promotional materials, providing you a product or service, or entering you in a contest, sweepstakes or game. (We refer to all of these activities and requests as "Sponsored Activities.") When you participate in Sponsored Activities, you will either be required or requested to agree that the sponsor or business associate may use your personal information (including, in some cases, your e-mail address) in accordance with the sponsor or business associate's privacy practices. Since you will have consented to this specific instance of sharing of your personal information, the opt-out choice for "Third Parties" described in A4 below will not apply.
+""","""
+Companies That Facilitate Communications and Transactions with You
+
+Sometimes The Walt Disney Family of Companies hires companies to help deliver products or services, like a shipping company that delivers a package or a company that helps fulfill prizes for a sweepstakes. In those instances, there is a need to share your information with these companies. Sometimes The Walt Disney Family of Companies also works with other companies who help either gather your information or communicate with you. Your opt-out choices under A4 below will not apply to sharing by The Walt Disney Family of Companies of your personal information with any of these companies. Nonetheless, except as separately permitted by other provisions of this Privacy Policy, these companies are allowed to gather, receive, and use your information only for the purposes described in this paragraph or as required by law.
+""","""
+Companies That You Previously Authorized to Obtain Your Information 
+
+In certain circumstances, your dealings with a third party may have authorized that third party to obtain your personal information from The Walt Disney Family of Companies and to use that information in accordance with the third party's own privacy practices and policies. For example, in using an online shopping service (such as the shopping services offered by Internet portals that refer the portal's users to third-party merchants), you may have authorized that shopping service to obtain from the service's participating third-party merchants (including The Walt Disney Family of Companies) information about your purchases conducted through the shopping service. In such circumstances, your opt-out elections under A4 below will not apply to sharing of your personal information by The Walt Disney Family of Companies. Nonetheless, The Walt Disney Family of Companies will provide such companies only the information that you authorized (except as separately permitted under other provisions of this Privacy Policy). In the example given above, the shopping service would be provided only information concerning purchases you made from The Walt Disney Family of Companies through that shopping service, and would not be provided any other information concerning you, unless any additional sharing of your personal information were separately permitted under another provision of this Privacy Policy.
+""","""
+Purchase or Sale of Businesses 
+
+From time to time, we may purchase a business or sell one or more of our businesses and your personally identifiable information may be transferred as a part of the purchase or sale. In the event that we purchase a business, the personally identifiable information received with that business would be treated in accordance with this Privacy Policy, if it is practicable and permissible to do so. In the event that we sell a business, we will include provisions in the selling contract requiring the purchaser to treat your personally identifiable information in the same manner required by this Privacy Policy (including any amendments to this Privacy Policy). In light of this protection, your opt-out choices under A4 will not affect our right to transfer your information to a purchaser in these circumstances. The provisions of this paragraph will also apply in the event that one or more businesses of any other member of The Walt Disney Family of Companies are sold and personal information subject to this Privacy Policy is transferred to a purchaser of those businesses.
+
+Disclosures Required By Law and Disclosures to Help Protect the Security and Safety of Our Web Sites, The Walt Disney Family of Companies and Others 
+
+Regardless of any opt-out choices that you make under A4, The Walt Disney Family of Companies will disclose personal information when it believes in good faith that such disclosures (a) are required by law, including, for example, to comply with a court order or subpoena, or (b) will help to: enforce our Terms of Use; enforce contest, sweepstakes, promotions, and/or game rules; protect your safety or security, including the safety and security of property that belongs to you; and/or, protect the safety and security of our Web sites, The Walt Disney Family of Companies, and/or third parties, including the safety and security of property that belongs to The Walt Disney Family of Companies or third parties.
+""","""
+Q4 What choices do you have about the collection, use, and sharing of your personally identifiable information? 
+A4 With regard to personal information that you have provided under this Privacy Policy, there are three separate opt-out choices available to you. These opt-out choices are the means by which you give us, or decline to give us, your consent to use your personal information for the purposes covered by these opt-out choices. Some of our Web sites may not present you all three opt-out choices described below. Please be assured, however, that if any one of these opt-out choices is not presented to you on a Web site, personal information collected from you on that site will not be used for the purposes covered by that opt-out choice. There are several methods by which you can exercise your opt-out choices: (a) during the registration process on our Web sites; (b) after registration, by logging on our Web sites, clicking on our Privacy Policy links, going to a site's Guest Services center (sometimes called a site's "Member Services" or "Preference" center), and following the opt-out directions; and (c) as described below in A6. Each of these opt-out choices is subject to the exceptions described further below in this A4.
+""","""
+Your three opt-out choices are:
+
+Third Parties: You may choose to opt-out of receiving promotional materials from third parties. If you do not choose this opt-out, The Walt Disney Family of Companies may share your personal information so that third parties can send you these promotional materials. Your opt-out choices for third parties are specific to the particular Web sites where you make these choices. Thus, if you want to opt out of all uses of your personal information covered by the "Third Parties" opt-out, you must consistently elect that opt-out at each of our Web sites where you either register, or log in and visit the Guest Services center. If you want to make a change in your "Third Parties" opt-out choices, you will need to make that change at each of our Web sites where you previously made a different choice. Please bear in mind that this opt-out choice for "Third Parties" will not apply to the licensees and co-branding participants described above in A3.
+""","""
+The Walt Disney Family of Companies: You may choose to opt-out of receiving promotional materials from members of The Walt Disney Family of Companies, including the licensees and co-branding participants described above in A3. This opt-out choice is found on each of our Web sites. For your convenience, when you make a choice regarding this "The Walt Disney Family of Companies" opt-out at any one of our Web sites, we will treat that choice as replacing any other choices regarding that opt-out that that you may previously have made. Thus, if you want to make a change in your "The Walt Disney Family of Companies" opt-out choice, you can make that change by visiting the Guest Services center at any one of our Web sites. Your election to choose this "The Walt Disney Family of Companies" opt-out will not, however, override your consent to receive promotional materials from a specific member of The Walt Disney Family of Companies. As described in the following paragraph, you provide this consent when you visit the Guest Services center of the Web site for a specific member of The Walt Disney Family of Companies and choose not to opt-out of receiving promotional materials from that specific member.
+""","""
+Individual Disney Companies: You may choose to opt-out of receiving promotional materials directly from a specific member of The Walt Disney Family of Companies. To do so, you must visit the Guest Services center of the Web site for this specific member and opt-out of receiving promotional materials from this member. However, if you do not also opt-out of receiving promotional materials from "The Walt Disney Family of Companies" as described in the preceding paragraph, you may still receive promotional materials from this specific member of The Walt Disney Family of Companies.
+""","""
+Please keep in mind that any opt-out choices you make will not apply in situations where (a) you either have made, simultaneously make, or later make a specific request for information from a member of The Walt Disney Family of Companies, (b) The Walt Disney Family of Companies uses your personal information for either "Operational Uses" or "Fulfillment Uses" (as described above in A3), (c) you either have engaged, simultaneously engage, or later engage in either Non-Registered Transactions or Sponsored Activities (as described above in A3), or (d) The Walt Disney Family of Companies shares your personal information under the provisions of A3 above with respect to "Companies That Facilitate Communications and Transactions With You," "Companies That You Previously Authorized to Obtain Your Information," "Third Party Advertisers and Network Advertisers," "Purchase or Sale of Businesses," or "Disclosures Required By Law and Disclosures to Help Protect the Security and Safety of Our Web Sites, The Walt Disney Family of Companies and Others."
+""","""
+Finally, if you do not exercise your opt-out choices upon registration or initial log-in at our Web sites, it may take up to ninety (90) days for your opt-out choices to be fully effective. Our systems require time to update, and promotional mailings using personal information shared before your opt-out may already be in process. Thus, you might continue to receive promotional materials from The Walt Disney Family of Companies based upon the personal information you have provided under this Privacy Policy for up to ninety (90) days. For similar reasons, your personal information might continue to be shared with third parties for promotional purposes for up to ninety (90) days.
+""","""
+Q5 What kinds of security measures do we take to safeguard your personally identifiable information? 
+A5 The security and confidentiality of your information is extremely important to us. We have implemented technical, administrative, and physical security measures to protect guest information from unauthorized access and improper use. From time to time, we review our security procedures in order to consider appropriate new technology and methods. Please be aware though that, despite our best efforts, no security measures are perfect or impenetrable.
+""","""
+Q6 How can you update your contact information and opt out choices? 
+A6 You can access and update the contact information you gave us during registration (that is, your postal address, e-mail address, or any other information that would directly enable us to contact you), or modify your opt-out choices, by going to our member services centers. Simply click on this link http://register.go.com/go/memberservices/home, or go to the Guest Services centers on our Web sites, and then log in with your member name and password. There are instructions on the start page of the link above to help you recover your password if you've forgotten it. If you need to recover your password, you can also contact us via e-mail at ms_support@help.go.com. Please include information in the e-mail that will help us identify your account so we can assist you with your request. We may also provide you an opportunity to update your contact information and/or modify your opt-out choices by sending you an e-mail or other communication that invites your response. Finally, you may unsubscribe from certain e-mail communications by clicking on unsubscribe links in those e-mails.
+""","""
+Q7 How can you ask questions, or send us comments, about this Privacy Policy? 
+A7 If you have questions or wish to send us comments about this Privacy Policy, please send an e-mail with your questions or comments to ms_support@help.go.com or write us:
+
+  Member Services
+  WDIG
+  500 S. Buena Vista St.
+  Mail Code 7716
+  Burbank, CA 91521-7716, USA
+
+Please be assured that any personal information that you provide in communications to the above e-mail and postal mail addresses will not be used to send you promotional materials, unless you so request.
+""","""
+Q8 How will you know if we amend this Privacy Policy? 
+A8 We may amend this Privacy Policy at any time. If we make any material changes in the way we collect, use, and/or share your personal information, we will notify you by sending you an e-mail at the last e-mail address that you provided us, and/or by prominently posting notice of the changes on the Web sites covered by this Privacy Policy. Any material changes to this Privacy Policy will be effective upon the earlier of thirty (30) calendar days following our dispatch of an e-mail notice to you or thirty (30) calendar days following our posting of notice of the changes on the Web sites covered by this Privacy Policy. Please note that, at all times, you are responsible for updating your personal information to provide us your current e-mail address. In the event that the last e-mail address that you have provided us is not valid, or for any other reason is not capable of delivering to you the notice described above, our dispatch of the e-mail containing such notice will nonetheless constitute effective notice of the changes described in the notice. In any event, changes to this Privacy Policy may affect our use of personal information that you provided us prior to our notification to you of the changes. If you do not wish to permit changes in our use of your information, you must notify us prior to the effective date of the changes that you wish to deactivate your account with us.
+
+The Walt Disney Internet Group is a licensee of the TRUSTe Privacy Program. If you believe that we have not responded to your inquiry or your inquiry has not been satisfactorily addressed, please contact TRUSTe at http://www.truste.org/users/users_watchdog.html.
+""",
+]
+PrivacyPolicyText_2K = [
+"""
+Updated: 11/06/2003
+
+For over than 75 years, The Walt Disney Company has taken great pride in the relationships that it has developed with its guests. In keeping with this tradition, we at the Walt Disney Internet Group are dedicated to protecting your privacy and handling any personal information we obtain from you with care and respect. This Kids' Privacy Policy is designed to answer your questions regarding our privacy policies and principles with respect to children under the age of 13.
+
+Building on our general Privacy Policy, we recognize the need to provide additional privacy protections when children visit the sites on which this Kids' Privacy Policy is posted. We explain those additional protections here in this Kids' Privacy Policy. For your convenience, this Kids' Privacy Policy uses terms that are defined in our general Privacy Policy.
+
+The Children's Online Privacy Protection Act ("COPPA") requires that we inform parents and legal guardians about how we collect, use, and disclose personal information from children under 13 years of age; and that we obtain the consent of parents and guardians in order for children under 13 years of age to use certain features of our Web sites. Below we explain how we do that for these "kids." Also, when we use the term "parent" below, we mean to include legal guardians. 
+""","""
+Q1 What types of personal information do we collect about kids? 
+Q2 How do we use and share the personal information that we have collected from kids?  
+Q3 How do we notify and obtain consent from parents for the collection of personal information from their kids? 
+Q4 How can parents access, change or delete personal information about their kids? 
+Q5 How will we notify parents if our Kids' Privacy Policy changes? 
+Q6 Who do guests contact with questions or concerns about our Kids' Privacy Policy? 
+""","""
+Q1 What types of information do we collect about kids? 
+A1 Kids can surf Disney.com and other WDIG sites, view content, and play many games without any personal information being collected. We do not collect personal information from kids unless they register on WDIG sites. Typically, kids will register in order to participate in sweepstakes or contests or to participate in a special activity. The only information we collect from kids during our registration process is a kid's first name, parent's e-mail address, kid's birth date, member name, and password. We collect birth dates to validate the ages of our guests, including kids. We do not collect any other personally identifiable information from kids during our registration process. We also will collect a kid's e-mail address from a parent for the purpose of sending the kid e-mail related to a subscription. For example, we would send Disney's Blast Gazette to a kid directly at the request of the kid's parent. Note that all sites that are directed to children under 13 are prohibited by law from conditioning a kid's participation in an online activity on the kid's providing more personal information than is reasonably necessary. 
+""","""
+We may collect personal information from parents in order to allow kids to participate in certain features located on our Web sites and within our kids' subscription products, such as Disney's Blast and Disney's Toontown Online (see A3 below for details). These features may include instant message chatting (for example, Secret Friends in Disney's Toontown Online), sending e-mail, posting on message boards, interacting with pen-pals, and other similar activities. In the course of a kid's participation in these features, a kid may also provide us additional information about himself or herself, such as the contents of his or her chat or message board postings. If a parent allows us to collect personal information about their kid, we may link certain information collected through technology (see the "Information Collected Through Technology" section of A2 of our general Privacy Policy) to that personal information.
+""","""
+Q2 How do we use and share the personally identifiable information that we have collected about kids? 
+A2 If a kid registers for a sweepstakes or contest, we use the parent's e-mail address to notify the parent of the kid's registration request (as described in detail below in A3). To personalize communications to a kid regarding a specific product (such as Disney's Blast), we may use the kid's first name combined with the parent's last name and a mailing address provided by the parent when signing up for that specific product. We may collect a kid's e-mail address from the parent in order to send the kid a newsletter, such as Disney's Blast Gazette. In addition, personal information regarding a kid may be disclosed in the course of a kid's participation in certain interactive features such as message boards and pen pal services. 
+""","""
+We do not share any information about a kid with any other member of The Walt Disney Family of Companies or with any third parties unless the disclosure is reasonably necessary: to comply with law, including, for example, to comply with a court order or subpoena; to enforce our Terms of Service, or site or game rules; or to protect the safety and security of our Guests and our Web sites.
+""","""
+Q3 How do we notify and obtain consent from parents for the collection of information from their kids? 
+A3 We send parents an e-mail when their kid registers and enters a sweepstakes or contest and we provide parents 48 hours to refuse their kid's registration and entry in the sweepstakes or contest. If the parent refuses to allow the kid's registration and entry, we delete the kid's information from our database. If we don't hear back from the parent, we assume it is acceptable for the kid to be registered and entered in the sweepstakes or contest. Once a parent permits a kid to register, the kid will be able to enter future registration-based sweepstakes or contests without any further notification to the parent. If a kid wins a sweepstakes or contest, we notify the parent at the parent's e-mail address provided to us during the registration process and request that the parent provide their postal address for purposes of delivering the prize. We may publish a winner's first name, first initial of last name, city, and state of residence on our Web sites. 
+""","""
+Before allowing a kid to use a feature of our Web sites that might result in the disclosure of the kid's information to third parties on the Internet, we require a parent's name and credit card information to confirm that the parent has given permission for the kid's participation in such features. The credit card will be charged only if the parent is signing up for a subscription service and has authorized us to charge their credit card. Otherwise the credit card information is used for real-time verification purposes to confirm that an adult is authorizing the kid's participation. The credit card information is archived in a secure manner and retained by us as evidence that we received parental consent.
+""","""
+Q4 How can parents access, change or delete personally identifiable information about their kids? 
+A4 At any time parents can refuse to permit us to collect further personal information from their kid and can request that any personal information we have collected be deleted from our records. We use two methods to allow parents to access, change, or delete the personally identifiable information that we have collected from their kids. 
+""","""
+A parent can access, change, or delete his or her kid's personal information by logging on to the kid's account at the Member Services Home Page located at http://register.go.com/go/memberservices/home. The parent will need to have their kid's member name and password. There are instructions on the Your Account home page explaining how to recover a password if the kid has forgotten it. 
+""","""
+A parent can contact our customer service department to access, change, or delete the personal information that we have collected from his or her kid by sending an e-mail to ms_support@help.go.com. Please include the kid's member name and the parent's e-mail address in the e-mail so that we can better assist you with your inquiry or request. 
+""","""
+Q5 How will we notify parents if our Kids' Privacy Policy changes? 
+A5 We may amend our Kids' Privacy Policy at any time. We will provide parents notice by e-mail of any material changes in the way we intend to collect, use, and/or share kids' personal information. Please note that, at all times, parents should update their personal information to provide us current e-mail addresses. We will apply material changes in our Kids' Privacy Policy only in conformance with applicable law, including any applicable provisions of COPPA that require parental consent.
+""","""
+Q6 Who do guests contact with questions or concerns about our Kids' Privacy Policy? 
+A6 If you need further assistance, please send an e-mail with your questions or comments to ms_support@help.go.com or write us at: 
+
+  Member Services
+  Walt Disney Internet Group
+  500 S. Buena Vista Street
+  Mail Code 7716
+  Burbank, CA 91521-7716, USA
+  You may also telephone us at 1-(877) 466-6669. (If you are not 18 years of age or older, you must have your parent or guardian's permission to call this number.) 
+
+The Walt Disney Internet Group is a licensee of the TRUSTe Privacy Program. If you believe that we have not responded to your inquiry or your inquiry has not been satisfactorily addressed, please contact TRUSTe http://www.truste.org/users/users_watchdog.html. 
+""",
+]
+PrivacyPolicyText_Intro = [
+"""
+There are four different Privacy Policies.
+
+The Privacy Policy that applies to each person will depend on when they agreed to the Privacy Policy and their age.
+
+Version 1 is for persons who agreed before 11/06/2003.
+Version 2 is for persons who agreed after that date.
+
+The "for children" versions are for children under the age of 13; while the "for non-children" version is for everyone else.
+"""
+]
 PrivacyPolicyClose = lClose
 
 # SecretFriendsInfoPanel.py
 SecretFriendsInfoPanelOk = lOK
 SecretFriendsInfoPanelClose = lClose
-#SecretFriendsInfoPanelText = ["""
-#O recurso Amigos secretos
-#
-#O recurso Amigos secretos permite que um membro converse diretamente com outro no Toontown On-line da Disney (o "Serviço") depois que os membros estabelecerem uma conexão de Amigos secretos. Quando o seu filho tentar usar o recurso Amigos secretos, solicitaremos que você insira a sua Senha de pais para indicar seu consentimento para que a criança use o recurso. Esta é uma descrição detalhada do processo de criação de uma conexão de Amigos secretos entre os membros fictícios chamados "Sandra" e "Marcos".
-#1. O responsável por Sandra e o responsável por Marcos ativam o recurso Amigos secretos inserindo suas respectivas Senhas de pais (a) nas áreas de Opções da conta do Serviço ou (b) quando for solicitado no jogo, em uma janela pop-up de Controles disponíveis aos pais.
-#2. Sandra pede um Segredo (descrito abaixo) no Serviço.
-#""","""
-#3. O Segredo de Sandra é comunicado a Marcos fora do Serviço. (O Segredo de Sandra pode ser comunicado a Marcos diretamente por Sandra ou indiretamente, se Sandra revelar o Segredo a outra pessoa.)
-#4. Marcos envia o Segredo de Sandra ao Serviço dentro de 48 horas a partir da hora em que Sandra solicitou o Segredo ao Serviço.
-#5. Em seguida, o Serviço notifica Marcos de que Sandra tornou-se sua Amiga secreta. Da mesma forma, o Serviço notifica Sandra de que Marcos tornou-se seu Amigo secreto.
-#6. Sandra e Marcos podem agora conversar diretamente um com o outro até um deles escolher cancelar o seu relacionamento como Amigo secreto, ou até que o recurso de Amigos secretos seja desativado para Sandra ou Marcos por um dos responsáveis por essas crianças. Então, a conexão de Amigos secretos pode ser desativada a qualquer momento: (a) por um membro, que remove o Amigo secreto de sua lista de amigos (conforme descrito no Serviço), ou (b) pelo responsável pelo membro, que desativa o recurso Amigos secretos na área Opções da conta do Serviço, seguindo as etapas definidas no recurso.
-#""","""
-#O Segredo é um código aleatório, gerado por computador, que é atribuído a um membro específico. O Segredo precisa ser usado para ativar a conexão de Amigo secreto dentro de 48 horas a partir da hora em que o membro solicitou o Segredo; caso contrário, o Segredo expirará e não poderá ser usado. Além disso, só se pode usar um único Segredo para estabelecer uma conexão de Amigo secreto. Para fazer conexões adicionais de Amigos secretos, o membro precisará solicitar mais segredos, um para cada Amigo secreto que quiser incluir.
-#
-#As Amizades secretas não podem ser transferidas. Por exemplo, se Sandra se tornar Amiga secreta de Marcos, e Marcos se tornar Amigo secreto de Jéssica, Sandra não se tornará automaticamente Amiga secreta de Jéssica. Para que Sandra e Jéssica se tornem Amigas secretas, uma delas terá que solicitar um novo Segredo ao Serviço e comunicar à outra.
-#""","""
-#Os Amigos secretos se comunicam entre si por meio de uma conversa interativa em formato livre. O conteúdo da conversa é inserido diretamente pelo membro participante e é processado pelo Serviço, cuja operação é realizada pelo Walt Disney Internet Group ("WDIG"), 506 2nd Avenue, Suite 2100, Seattle, WA 98104, EUA (telefone +1 (509) 742-4698; e-mail ms_support@help.go.com). Apesar de recomendarmos aos membros não trocarem com outros membros informações pessoais como nome e sobrenome, e-mails, endereço postal ou números de telefone ao usarem o recurso Amigos secretos, não podemos garantir que os membros seguirão a recomendação e que tais informações sejam preservadas. Embora o chat Amigos secretos seja automaticamente filtrado para evitar o uso da maioria dos palavrões, não há moderação nem supervisão de nossa parte. Se os pais deixarem seus filhos usarem a conta com o recurso Amigos secretos ativado no Serviço, aconselhamos que eles mesmos supervisionem os filhos durante a brincadeira.
-#""","""
-#O WDIG não usa o conteúdo do chat Amigos secretos para nenhum fim que não seja a comunicação do conteúdo ao amigo secreto do membro, e não revela tal conteúdo a terceiros, exceto: (1) se exigido por lei; por exemplo, para cumprir uma ordem ou intimação judicial; (2) para fazer com que os Termos de Uso aplicáveis ao Serviço (que podem ser acessados na página principal do Serviço) sejam respeitados; ou (3) para proteger a segurança dos Membros do Serviço e o Serviço propriamente dito. Mediante solicitação ao WDIG, o responsável por uma criança-membro pode analisar e mandar apagar qualquer conteúdo do recurso de chat Amigos secretos fornecidos pela criança em questão, desde que tal conteúdo já não tenha sido excluído dos registros pelo WDIG. Obedecendo à Children's Online Privacy Protection Act, uma lei americana de proteção à privacidade on-line para as crianças, estamos proibidos de condicionar a participação da criança em qualquer tipo de atividade (inclusive o recurso Amigos secretos) ao fornecimento, por parte da criança, de mais informações pessoais do que o estritamente necessário para que ela participe de tais atividades.
-#""","""
-#Além disso, conforme observado acima, reconhecemos o direito do responsável pela criança de não permitir que continuemos a deixar que a criança use o recurso Amigos secretos. Ao ativar o recurso Amigos secretos, você reconhece que há alguns riscos inerentes ao chat, no qual os membros podem conversar uns com os outros usando o recurso Amigos secretos, sendo que você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los."""
-#]
-SecretFriendsInfoPanelText = ["""
-Com o recurso Amigos secretos, um associado pode conversar diretamente com outro no Toontown On-line da Disney (o "Serviço") depois que estabelecerem uma conexão com o recurso Amigos secretos. Quando o seu filho tentar usar o recurso Amigos secretos, solicitaremos que você insira a sua Senha de pais para confirmar o seu consentimento para que a criança use o recurso. A seguir, há a descrição detalhada, para exemplificação, do processo de criação de uma conexão de Amigos secretos entre os associados fictícios chamados "Sandra" e "Marcos".
-1. O responsável por Sandra e o responsável por Marcos ativam o recurso Amigos secretos inserindo suas respectivas Senhas de pais (a) nas áreas de Opções da conta do Serviço ou (b) quando for solicitado no jogo, em uma janela pop-up de Controles disponíveis aos pais.
-2. Sandra pede um Segredo (descrito abaixo) no Serviço.
-""","""
-3. O Segredo de Sandra é comunicado a Marcos fora do Serviço. (O Segredo de Sandra pode ser comunicado a Marcos diretamente por Sandra ou indiretamente, se ela revelar o Segredo a outra pessoa.)
-4. Marcos envia o Segredo de Sandra ao Serviço dentro de 48 horas a partir da hora em que ela solicitou o Segredo ao Serviço.
-5. Em seguida, o Serviço notifica Marcos de que Sandra tornou-se sua Amiga secreta. Da mesma forma, o Serviço notifica Sandra de que Marcos tornou-se seu Amigo secreto.
-6. Sandra e Marcos podem agora conversar diretamente um com o outro até um deles cancelar o seu relacionamento como Amigo secreto ou até que o recurso de Amigos secretos seja desativado para Sandra ou Marcos por um dos responsáveis por essas crianças. Então, a conexão de Amigos secretos pode ser desativada a qualquer momento: (a) por um associado, que remove o Amigo secreto de sua lista de amigos (conforme descrito no Serviço), ou (b) pelo responsável pelo associado, que desativa o recurso Amigos secretos na área Opções da conta do Serviço, seguindo as etapas definidas no recurso.
-""","""
-O Segredo é um código aleatório, gerado por computador, que é atribuído a um associado específico. O Segredo precisa ser usado para ativar a conexão de Amigo secreto dentro de 48 horas a partir do momento em que o associado solicitou o Segredo; caso contrário, o Segredo expirará e não poderá ser usado. Além disso, só se pode usar um único Segredo para estabelecer uma conexão de Amigo secreto. Para fazer conexões adicionais de Amigos secretos, o associado precisará solicitar mais segredos, um para cada Amigo secreto que quiser incluir.
-
-As Amizades secretas não podem ser transferidas. Por exemplo, se Sandra se tornar Amiga secreta de Marcos, e Marcos se tornar Amigo secreto de Jéssica, Sandra não se tornará automaticamente Amiga secreta de Jéssica. Para que Sandra e Jéssica se tornem Amigas secretas, uma delas terá que solicitar um novo Segredo ao Serviço e comunicar à outra.
-""","""
-Os Amigos secretos se comunicam entre si por meio de uma conversa interativa em formato livre. O conteúdo da conversa é inserido diretamente pelo associado participante e é processado pelo Serviço, cuja operação é realizada pelo Walt Disney Internet Group ("WDIG"), 506 2nd Avenue, Suite 2100, Seattle, WA 98104, EUA (telefone +1 (509) 742-4698; e-mail ms_support@help.go.com). Apesar de recomendarmos aos associados que não troquem informações pessoais, como nome e sobrenome, e-mails, endereço postal ou números de telefone, com outros associados ao usar o recurso Amigos secretos, não podemos garantir que os associados seguirão a recomendação e que tais informações sejam preservadas. Embora o chat Amigos secretos seja automaticamente filtrado para evitar o uso da maioria dos palavrões, não há moderação nem supervisão de nossa parte. Se os pais deixarem seus filhos usar a conta com o recurso Amigos secretos ativado no Serviço, aconselhamos que eles mesmos supervisionem os filhos durante a brincadeira.
-""","""
-O WDIG não usa o conteúdo do chat Amigos secretos para nenhum fim que não seja a comunicação do conteúdo ao amigo secreto do associado nem revela tal conteúdo a terceiros, exceto: (1) se exigido por lei; por exemplo, para cumprir uma ordem ou intimação judicial; (2) para fazer com que os Termos de Uso aplicáveis ao Serviço (que podem ser acessados na página principal do Serviço) sejam respeitados; ou (3) para proteger a segurança dos Associados do Serviço e o Serviço propriamente dito. Mediante solicitação ao WDIG, o responsável por uma criança/associado pode analisar e mandar apagar qualquer conteúdo do recurso de chat Amigos secretos fornecidos pela criança em questão, desde que tal conteúdo já não tenha sido excluído dos registros pelo WDIG. Obedecendo à Children's Online Privacy Protection Act, uma lei americana de proteção à privacidade on-line para as crianças, estamos proibidos de condicionar a participação da criança em qualquer tipo de atividade (inclusive o recurso Amigos secretos) ao fornecimento, por parte da criança, de mais informações pessoais do que o estritamente necessário para que ela participe de tais atividades.
-""","""
-Além disso, conforme foi observado acima, reconhecemos o direito do responsável pela criança de não permitir que continuemos a deixar que a criança use o recurso Amigos secretos. Ao ativar o recurso Amigos secretos, você reconhece que há alguns riscos inerentes ao chat, no qual os associados podem conversar uns com os outros usando o recurso Amigos secretos, sendo que você foi informado de todos os riscos mencionados aqui, concordando em ativar o recurso Amigos secretos mesmo assim.
+SecretFriendsInfoPanelText = ["""O recurso Bate-papo Aberto com amigos verdadeiros O recurso Bate-papo Aberto com amigos verdadeiros permite permite que um membro converse diretamente com outro no Toontown On-line da Disney (o "Serviço") depois que os membros estabelecerem uma conexão de Amigos verdadeiros. Quando o seu filho tentar usar o recurso Bate-papo Aberto com amigos verdadeiros solicitaremos que você insira a sua Senha da conta de pais para indicar seu consentimento para que a criança use o recurso. Esta é uma descrição detalhada do processo de criação de uma conexão de Bate-papo Aberto com Amigos verdadeiros entre os membros fictícios chamados "Sandra" e "Marcos".1. O responsável por Sandra e o responsável por Marcos ativam o recurso Bate-papo Aberto com Amigos verdadeiros inserindo suas respectivas Senhas das contas de pais (a) nas áreas de Opções da conta do Serviço ou (b) quando for solicitado no jogo, em uma janela pop-up de Controles disponíveis aos pais..2. Sandra pede um Código de Amigo Verdadeiro (descrito abaixo) no Serviço.""","""3. O Código de Amigo Verdadeiro de Sandra é comunicado a Marcos fora do Serviço. (O Código de Amigo Verdadeiro de Sandra pode ser comunicado a Marcos diretamente por Sandra ou indiretamente, se Sandra revelar o Código de Amigo Verdadeiro a outra pessoa.) 4. Marcos envia o Código de Amigo Verdadeiro de Sandra ao Serviço dentro de 48 horas a partir da hora em que Sandra solicitou o Código de Amigo Verdadeiro ao Serviço.5. Em seguida, o Serviço notifica Marcos de que Sandra tornou-se sua Amiga secreta. Da mesma forma, o Serviço notifica Sandra de que Marcos tornou-se seu Amigo Verdadeiro.6. Sandra e Marcos podem agora conversar diretamente um com o outro até um deles escolher cancelar o seu relacionamento como Amigo Verdadeiro, ou até que o recurso de Amigos verdadeiros seja desativado para Sandra ou Marcos por um dos responsáveis por essas crianças. Então, a conexão de Amigos verdadeiros pode ser desativada a qualquer momento: (a) por um membro, que remove o Amigo Verdadeiro de sua lista de amigos (conforme descrito no Serviço), ou (b) pelo responsável pelo membro, que desativa o recurso Bate-papo Aberto com ""","""Amigos verdadeiros na área Opções da conta do Serviço, seguindo as etapas definidas no recurso. O Código de Amigo Verdadeiro é um código aleatório, gerado por computador, que é atribuído a um membro específico. O Segredo precisa ser usado para ativar a conexão de Amigo Verdadeiro dentro de 48 horas a partir da hora em que o membro solicitou o Segredo; caso contrário, o Segredo expirará e não poderá ser usado. Além disso, só se pode usar um único Código de Amigo Verdadeiro para estabelecer uma conexão de Amigo Verdadeiro. Para fazer conexões adicionais de Amigos verdadeiros, o membro precisará solicitar mais segredos, um para cada Amigo Verdadeiro que quiser incluir. As Amizades secretas não podem ser transferidas. Por exemplo, se Sandra se tornar Amiga secreta de Marcos, e Marcos se tornar Amigo Verdadeiro de Jéssica, Sandra não se tornará automaticamente Amiga secreta de Jéssica. Para que Sandra e Jéssica""","""se tornem Amigas secretas, uma delas terá que solicitar um novo Código de Amigo Verdadeiro ao Serviço e comunicar à outra. Os Amigos verdadeiros se comunicam entre si por meio de uma conversa interativa em formato livre. O conteúdo da conversa é inserido diretamente pelo membro participante e é processado pelo Serviço, cuja operação é realizada pelo Walt Disney Internet Group ("WDIG"), 500 S. Buena Vista St., Burbank, CA 91521-7691. Apesar de recomendarmos aos membros não trocarem com outros membros informações pessoais como nome e sobrenome, e-mails, endereço postal ou números de telefone ao usarem o Bate-papo Aberto com Amigos verdadeiros, não podemos garantir que os membros seguirão a recomendação e que tais informações sejam preservadas. Embora o chat Amigos verdadeiros seja automaticamente filtrado para evitar o uso da maioria dos palavrões, Bate-papo Aberto com Amigos verdadeiros pode ser moderado e Disney reserva o direito de moderar qualquer parte do Serviço que a Disney, ""","""a seu exclusivo e absoluto critério, julgar necessário. No entanto, porque Bate-papo Aberto com Amigos verdadeiros nem sempre será moderado, se a conta dos pais deixarem seus filhos usarem a conta com o recurso Bate-papo Aberto com Amigos verdadeiros ativado, aconselhamos que eles mesmos supervisionem os filhos durante a brincadeira no Serviço. Ao ativar o recurso Bate-papo Aberto com Amigos verdadeiros, Conta dos pais reconhece que, apesar de haver alguns riscos inerentes a ele, Conta dos pais foi informado de todos os riscos mencionados aqui, concordando em aceitá-los,seja previsível ou não. O WDIG não usa o conteúdo do chat Amigos verdadeiros para nenhum fim que não seja a comunicação do conteúdo ao amigo Verdadeiro do membro, e não revela tal conteúdo a terceiros, exceto: (1) se exigido por lei; por exemplo, para cumprir uma ordem ou intimação judicial; (2) para fazer com que os Termos de Uso""","""aplicáveis ao Serviço (que podem ser acessados na página principal do Serviço) sejam respeitados; ou (3) para proteger a segurança dos Membros do Serviço e o Serviço propriamente dito.Obedecendo à Children's Online Privacy Protection Act, uma lei americana de proteção à privacidade on-line para as crianças, estamos proibidos de condicionar a participação da criança em qualquer tipo de atividade (inclusive o recurso Bate-papo Aberto com Amigos verdadeiros) ao fornecimento, por parte da criança, de mais informações pessoais do que o estritamente necessário para que ela participe de tais atividades. Além disso, conforme observado acima, reconhecemos o direito do responsável pela criança de não permitir que continuemos a deixar que a criança use o recurso Amigos verdadeiros. Ao ativar o recurso Bate-papo Aberto com Amigos verdadeiros, você reconhece que há alguns riscos inerentes ao chat, no qual os membros podem conversar uns com os outros usando o recurso Bate-papo Aberto com Amigos verdadeiros, sendo que você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los, seja previsível ou não.
 """
 ]
 
-#LeaveToPay = """Para efetuar a compra, o jogo sairá para Toontown.com.br"""
-LeaveToPay = """Para efetuar a compra, você sairá do jogo e será direcionado para Toontown.com.br"""
+LeaveToPay = """Clica na compra para sair do jogo e comprar Seja um Super Toon no  Toontown.com.br"""
 LeaveToPayYes = "Comprar"
 LeaveToPayNo = lCancel
 
-#LeaveToSetParentPassword = """Para configurar a Senha de pais, o jogo sairá para Toontown.com.br"""
-LeaveToSetParentPassword = """Para configurar a Senha de pais, você sairá do jogo e será direcionado para Toontown.com.br"""
+LeaveToSetParentPassword = """Para definir a Senha da conta dos pais, o jogo sairá para o site Toontown.com.br"""
 LeaveToSetParentPasswordYes = "Definir senha"
 LeaveToSetParentPasswordNo = lCancel
 
-#LeaveToEnableChatUK = """Para ativar o chat, o jogo sairá para o site Toontown."""
-LeaveToEnableChatUK = """Para ativar o chat, você sairá do jogo e será direcionado para o site Toontown."""
+LeaveToEnableChatUK = """Para ativar o chat, o jogo sairá para o site Toontown."""
 LeaveToEnableChatUKYes = "Ativar chat"
 LeaveToEnableChatUKNo = lCancel
 
 ChatMoreInfoOK = lOK
-SecretChatDeactivated = 'O recurso "Amigos secretos" foi desativado.'
-RestrictedSecretChatActivated = 'O recurso "Amigos secretos restritos" foi ativado!'
-SecretChatActivated = 'O sistema "Amigos secretos" foi ativado!\n\nSe você mudar de idéia e decidir desativar este recurso mais tarde, clique em "Opções da conta" na página da web de Toontown.'
+SecretChatDeactivated = 'O recurso "Amigos verdadeiros" foi desativado.'
+RestrictedSecretChatActivated = 'O recurso "Amigos verdadeiros restritos" foi ativado!'
+SecretChatActivated = 'O recurso "Amigos verdadeiros unrestritos" foi ativado!
 SecretChatActivatedOK = lOK
 SecretChatActivatedChange = "Alterar Opções"
-ProblemActivatingChat = 'Ops! Não foi possível ativar o recurso de chat "Amigos secretos".\n\n%s\n\nTente novamente mais tarde.'
+ProblemActivatingChat = 'Ops! Não foi possível ativar o recurso de chat "Amigos verdadeiros".\n\n%s\n\nTente novamente mais tarde.'
 ProblemActivatingChatOK = lOK
 
 # MultiPageTextFrame.py
@@ -244,9 +562,8 @@ MultiPageTextFramePrev = 'Anterior'
 MultiPageTextFramePage = 'Página %s/%s'
 
 # GuiScreen.py
-GuiScreenToontownUnavailable = "Toontown parece estar temporariamente indisponível, ainda tentando..."
+GuiScreenToontownUnavailable = "O servidor parece estar temporariamente indisponível, ainda tentando..."
 GuiScreenCancel = lCancel
-
 
 # CreateAccountScreen.py
 CreateAccountScreenUserName = "Nome da conta"
@@ -255,57 +572,57 @@ CreateAccountScreenConfirmPassword = "Confirmar senha"
 CreateAccountScreenCancel = lCancel
 CreateAccountScreenSubmit = "Enviar"
 CreateAccountScreenConnectionErrorSuffix = ".\n\nTente novamente mais tarde."
-CreateAccountScreenNoAccountName = "Insira o nome da conta."
-CreateAccountScreenAccountNameTooShort = "O nome da conta deve ter, pelo menos, %s caracteres. Tente novamente."
-CreateAccountScreenPasswordTooShort = "A senha deve ter, pelo menos, %s caracteres. Tente novamente."
-CreateAccountScreenPasswordMismatch = "As senhas inseridas não combinam. Tente novamente."
+CreateAccountScreenNoAccountName = "Por favor insira o nome da conta."
+CreateAccountScreenAccountNameTooShort = "O seu nome da conta deve ter, pelo menos, %s caracteres. Tente novamente."
+CreateAccountScreenPasswordTooShort = "A sua senha deve ter, pelo menos, %s caracteres. Tente novamente."
+CreateAccountScreenPasswordMismatch = "As suas senhas inseridas não combinam. Tente novamente."
 CreateAccountScreenUserNameTaken = "Este nome de usuário já existe. Tente novamente."
 CreateAccountScreenInvalidUserName = "Nome de usuário inválido.\nTente novamente."
-CreateAccountScreenUserNameNotFound = "Nome de usuário não encontrado.\nTente novamente ou crie uma nova conta."
+CreateAccountScreenUserNameNotFound = "Nome de usuário não encontrado.\nPor favor tente novamente ou crie uma nova conta."
 
 # ToontownClientRepository.py
 CRConnecting = "Conectando..."
 # host, port
 CRNoConnectTryAgain = "Não foi possível conectar-se a %s:%s. Tentar novamente?"
-CRNoConnectProxyNoPort = "Não foi possível conectar-se a %s:%s.\n\nVocê está se comunicando com a Internet por via proxy, mas o seu proxy não permite conexões na porta %s.\n\nVocê deve abrir esta porta, ou desativar o proxy, para poder jogar na Toontown. Se o proxy foi fornecido pelo seu provedor, é preciso entrar em contato com ele para abrir esta porta."
-CRMissingGameRootObject = "Há alguns objetos do jogo principal ausentes. (A causa pode ser uma conexão de rede com falhas). Saindo do jogo."
-CRNoDistrictsTryAgain = "Não há Regiões de Toontown disponíveis. Tentar novamente?"
-CRRejectRemoveAvatar = "O Toon não pôde ser excluído, tente novamente mais tarde."
-CRLostConnection = "A sua conexão de Internet à Toontown foi interrompida inesperadamente."
+CRNoConnectProxyNoPort = "Não foi possível conectar-se a %s:%s.\n\nVocê está se comunicando com a Internet por via proxy, mas o seu proxy não permite conexões na porta %s.\n\nVocê deve abrir esta porta, ou desativar o proxy, para poder jogar. Se o proxy foi fornecido pelo seu ISP, é preciso entrar em contato com o seu ISP para abrir esta porta."
+CRMissingGameRootObject = """Faltam alguns objetos do jogo raiz. (Pode ser uma conexão de rede com falhas)\n\nTente novamente."""
+CRNoDistrictsTryAgain = "Nenhum Distrito está disponível. Tentar novamente?"
+CRRejectRemoveAvatar = "O avatar não pôde ser excluído, tente novamente em outra hora."
+CRLostConnection = "Sua conexão de Internet com os servidores foi interrompida inesperadamente."
 CRBootedReasons = {
-    1: "Houve um problema inesperado. A conexão falhou, e você precisa se conectar novamente para voltar ao jogo.",
+    1: "Ocorreu um problema inesperado. Sua conexão foi perdida, mas você poderá se conectar novamente e voltar ao jogo.",
     100: "Você foi desconectado porque outra pessoa acabou de fazer login usando a sua conta em outro computador.",
-    120: "Você foi desconectado porque houve um problema com sua autorização para usar o chat.",
-    122: "Houve um problema inesperado quando você fez login em Toontown. Entre em contato com o Suporte ao Cliente de Toontown.",
-    125: "Os arquivos de Toontown que você tem instalados parecem ser inválidos. Use o botão Jogar, no site oficial de Toontown na web, para executar Toontown.",
-    126: "Você não está autorizado a usar privilégios administrativos.",
-    127: "A problem has occurred with your Toon. Please contact Member Services via phone or email and reference Error Code 127.  Thank you.",
-    151: "O administrador responsável pelos servidores de Toontown fez logout na sua conta.",
-    152: "Foi relatada uma violação dos nossos termos de uso, com relação a '%(name)s'. Por segurança, colocamos uma restrição temporária na conta. Para obter mais detalhes, leia a mensagem enviada ao endereço de e-mail associado a '%(name)s'.",
-    153: "A região de Toontown onde você estava jogando foi reiniciada. Todas as pessoas que estavam jogando nessa região foram desconectadas. Entretanto, você poderá conectar-se novamente e voltar direto ao jogo.",
-    288: "Sinto muito, mas você usou todos os seus minutos disponíveis deste mês em Toontown.",
-    349: "Sinto muito, mas você usou todos os seus minutos disponíveis deste mês em Toontown.",
+    120: "Você foi desconectado devido a um problema com sua autorização para usar o chat no teclado.",
+    122: "Ocorreu um problema inesperado ao fazer login. Entre em contato com o suporte ao cliente.",
+    125: "Seus arquivos instalados parecem ser inválidos. Use o botão Jogar no site oficial para executar.",
+    126: "Você não está autorizado a usar privilégios de administrador.",
+    127: "Ocorreu um problema com seu Toon.  Entre em contato com o Atendimento aos Membros por telefone, e-mail ou chat ao vivo e indique o Código de Erro 127. Obrigado."
+    151: "Você foi desconectado por um administrador que trabalha nos servidores.",
+    152: "Houve uma violação relatada dos nossos Termos de Uso relacionada a '%(name)s'. Para mais detalhes, revise a mensagem enviada para o endereço de e-mail associado a '%(name)s'.", 
+    153: "O distrito em que você estava jogando foi redefinido. Todos que estavam jogando naquele distrito foram desconectados. No entanto, você deverá conseguir se conectar novamente e voltar ao jogo.",
+    288: "Desculpe, você usou todos os seus minutos disponíveis este mês.",
+    349: "Desculpe, você usou todos os seus minutos disponíveis este mês.",
     }
-CRBootedReasonUnknownCode = "Houve um problema inesperado (código de erro %s). A conexão falhou, mas você ainda deve conseguir conectar-se novamente para voltar ao jogo."
-CRTryConnectAgain = "\n\nTentar conectar-se novamente?"
+CRBootedReasonUnknownCode = "Ocorreu um problema inesperado (código de erro %s).  Sua conexão foi perdida, mas você poderá se conectar novamente e voltar ao jogo."
+CRTryConnectAgain = "\n\nTentar se conectar novamente?"
 # avName
-CRToontownUnavailable = "Toontown parece estar temporariamente indisponível, ainda tentando..."
+CRToontownUnavailable = "O servidor parece estar temporariamente indisponível, ainda tentando..."
 CRToontownUnavailableCancel = lCancel
 CRNameCongratulations = "PARABÉNS!!"
-CRNameAccepted = "O seu nome foi\naprovado pelo Conselho de Toons.\n\nA partir de agora,\nvocê terá o nome\n\"%s\""
-CRServerConstantsProxyNoPort = "Não foi possível contatar %s.\n\nVocê está se comunicando com a Internet por via proxy, mas o seu proxy não permite conexões na porta %s.\n\nVocê deve abrir esta porta, ou desativar o proxy, para poder jogar na Toontown. Se o proxy foi fornecido pelo seu provedor, é preciso entrar em contato com ele para abrir esta porta."
-CRServerConstantsProxyNoCONNECT = "Não foi possível contatar %s.\n\nVocê está se comunicando com a Internet por via proxy, mas o seu proxy não permite o método CONECTAR.\n\nVocê deve ativar este recurso, ou desativar o proxy, para poder jogar na Toontown. Se o proxy foi fornecido pelo seu provedor, é preciso entrar em contato com ele para abrir esta porta."
-CRServerConstantsTryAgain = "Não foi possível contatar %s.\n\nO servidor de contas da Toontown deve estar temporariamente fora do ar ou deve haver algum problema na conexão de Internet.\n\nTentar novamente?"
+CRNameAccepted = "O seu nome foi\naprovado pelo Conselho de Toons.\n\nDe hoje em diante,\nvocê será nomeado\n\"%s\""
+CRServerConstantsProxyNoPort = "Não foi possível entrar em contato com %s.\n\nVocê está se comunicando com a Internet através de um proxy, mas seu proxy não permite conexões na porta %s.\n\nVocê deve abrir esta porta ou desativar seu proxy para jogar. Se o seu proxy foi fornecido pelo seu ISP, você deve entrar em contato com o seu ISP para solicitar a abertura desta porta."
+CRServerConstantsProxyNoCONNECT = "Não foi possível entrar em contato com %s.\n\nVocê está se comunicando com a Internet por meio de um proxy, mas seu proxy não suporta o método CONNECT.\n\nVocê deve ativar esse recurso ou desativar seu proxy para poder jogar.  Se o seu proxy tiver sido fornecido pelo seu ISP, você deverá entrar em contato com o seu ISP para solicitar a ativação desse recurso."
+CRServerConstantsTryAgain = "Não foi possível entrar em contato com %s.\n\nO servidor da conta pode estar temporariamente inativo ou pode haver algum problema com sua conexão com a Internet.\n\nTentar novamente?"
 CRServerDateTryAgain = "Não foi possível obter a data do servidor de %s. Tentar novamente?"
 AfkForceAcknowledgeMessage = "O seu Toon ficou com sono e foi para a cama."
-PeriodTimerWarning = "O seu limite de tempo em Toontown neste mês está quase no fim!"
-PeriodForceAcknowledgeMessage = "Você usou todos os seus minutos disponíveis em Toontown neste mês. Volte e jogue mais no próximo mês!"
-CREnteringToontown = "Entrando em Toontown..."
+PeriodTimerWarning = "Seu tempo disponível está quase acabando!"
+PeriodForceAcknowledgeMessage = "Desculpe, você usou todo o seu tempo disponível.  Por favor, saia para comprar mais."
+CREnteringToontown = "Entrando..."
 
 # DownloadWatcher.py
 # phase, percent
-DownloadWatcherUpdate = "Fazendo o download de %s"
-DownloadWatcherInitializing = "Inicializando Download..."
+DownloadWatcherUpdate = "Baixando %s"
+DownloadWatcherInitializing = "Inicializando o Download..."
 
 # LoginScreen.py
 LoginScreenUserName = "Nome da Conta"
@@ -313,12 +630,12 @@ LoginScreenPassword = "Senha"
 LoginScreenLogin = "Login"
 LoginScreenCreateAccount = "Criar Conta"
 LoginScreenQuit = lQuit
-LoginScreenLoginPrompt = "Por favor, digite um nome de usuário e uma senha."
-LoginScreenBadPassword = "Senha errada.\nTente novamente."
+LoginScreenLoginPrompt = "Por favor, insira um nome de usuário e uma senha."
+LoginScreenBadPassword = "Senha incorreta.\nTente novamente."
 LoginScreenInvalidUserName = "Nome de usuário inválido.\nTente novamente."
 LoginScreenUserNameNotFound = "Nome de usuário não encontrado.\nTente novamente ou crie uma nova conta."
-LoginScreenPeriodTimeExpired = "Sinto muito, mas você já usou todos os seus minutos disponíveis deste mês. Volte no início do próximo mês."
-LoginScreenNoNewAccounts = "Sinto muito, no momento não estamos aceitando novas contas."
+LoginScreenPeriodTimeExpired = "Desculpe, você usou todo o seu tempo disponível."
+LoginScreenNoNewAccounts = "Desculpe, não estamos aceitando novas contas no momento."
 LoginScreenTryAgain = "Tente novamente"
 
 
@@ -350,7 +667,7 @@ SCMenuHello = "OLÁ"
 SCMenuBye = "TCHAU"
 SCMenuHappy = "FELIZ"
 SCMenuSad = "TRISTE"
-SCMenuFriendly = "AMIGÁVEL"
+SCMenuFriendly = "AMIZADE"
 SCMenuSorry = "DESCULPE"
 SCMenuStinky = "FEDIDO"
 SCMenuPlaces = "LUGARES"
@@ -366,7 +683,7 @@ SCMenuCFOBattleGoons = "BRUTAMONTES"
 SCMenuCJBattle = "JUIZ-CHEFE"
 SCMenuCEOBattle = "PRESIDENTE"
 SCMenuGolf = "GOLFE"
-SCMenuWhiteList = "LISTA DE PERMISSÕES"
+SCMenuWhiteList = "LISTA DE BRANCO"
 SCMenuPlacesPlayground = "PÁTIO"
 SCMenuPlacesEstate = "PROPRIEDADE"
 SCMenuPlacesCogs = "COGS"
@@ -380,49 +697,49 @@ SCMenuToontasksINeedMore = "Preciso de mais..."
 SCMenuBattleGags = "PIADAS"
 SCMenuBattleTaunts = "PROVOCAÇÕES"
 SCMenuBattleStrategy = "ESTRATÉGIA"
-SCMenuBoardingGroup              = "ABORDAGEM"
-SCMenuParties                    = "FESTAS"
-SCMenuAprilToons                 = "TOONS DE ABRIL"
-SCMenuSingingGroup               = "CANTANDO"
-SCMenuCarol                      = "CANÇÕES NATALINAS"
-SCMenuSillyHoliday                   = "MEDIDOR DE BOBAGENS"
-SCMenuVictoryParties             = "FESTAS DA VITÓRIA"
-SCMenuSellbotNerf                = "ROBÔ VENDEDOR TEMPESTADE"
-SCMenuJellybeanJam               = "Dança de Balinhas"
-SCMenuHalloween                  = "HALLOWEEN"
-SCMenuWinter                     = "INVERNO"
-SCMenuSellbotInvasion            = "SELLBOT INVASION"
-SCMenuFieldOffice                = "FIELD OFFICES"
-SCMenuIdesOfMarch                = "GREEN"
-SCMenuLawbotNerf                 = "LAWBOTS LOSE"
+SCMenuBoardingGroup = "ABORDAGEM"
+SCMenuParties = "FESTAS"
+SCMenuAprilToons = "TOONS  MENTIROSOS"
+SCMenuSingingGroup = "CANTORIA"
+SCMenuCarol = "CANTANDO"
+SCMenuSillyHoliday = "MEDIDOR DE BOBAGEM"
+SCMenuVictoryParties = "FESTAS DA VITÓRIA"
+SCMenuSellbotNerf  = "TEMPESTADE DOS RÔBOS VENDEDORES"
+SCMenuJellybeanJam = "SEMANA DAS BALINHAS"
+SCMenuHalloween = "DIA DAS BRUXAS"
+SCMenuWinter = "INVERNO"
+SCMenuSellbotInvasion = "INVASÃO DOS RÔBOS VENDEFLDORES"
+SCMenuFieldOffice = "ESCRITÓRIOS DE CAMPO"
+SCMenuIdesOfMarch = "VERDE"
+SCMenuLawbotNerf = "RÔBOS DA LEI PERDEDORES"
 
 # FriendSecret.py
 FriendSecretNeedsPasswordWarningTitle = "Controles disponíveis aos pais"
 FriendSecretNeedsParentLoginWarning = """Para conseguir ou digitar um Código de Amigo Verdadeiro, um dos seus pais ou responsáveis precisa fazer o login. Você pode desativar esta pergunta alterando suas opções de Amigos Verdadeiros."""
-FriendSecretNeedsPasswordWarning = """Para pegar ou digitar um segredo, você deve inserir a Senha de pais. Você pode desativar esta solicitação alterando as suas opções de Amigos secretos."""
+FriendSecretNeedsPasswordWarning = """Para pegar ou digitar um segredo, você deve inserir a Senha da conta dos pais. Você pode desativar esta solicitação alterando as suas opções de Amigos verdadeiros."""
 FriendSecretNeedsPasswordWarningOK = lOK
 FriendSecretNeedsPasswordWarningCancel = lCancel
 FriendSecretNeedsPasswordWarningWrongUsername = """Esse não é o nome de usuário correto. Digite o nome de usuário da conta de pais. Esse não é o mesmo nome de usuário que é usado para jogar."""
-FriendSecretNeedsPasswordWarningWrongPassword = """Esta não é a senha correta. Insira a Senha de pais criada na compra desta conta. Não é a mesma senha usada para os jogos."""
-FriendSecretIntro = "Se você estiver jogando Toontown Online da Disney com alguém que conhece no mundo real, poderá tornar-se Amigo secreto dessa pessoa. Você pode conversar com seus Amigos secretos usando o teclado. Os outros Toons não entenderão o que vocês estiverem falando.\n\nVocê pode conseguir isto obtendo um segredo. Conte o segredo só ao seu amigo, e a mais ninguém. Quando o seu amigo digitar o seu segredo na tela, vocês dois serão Amigos secretos em Toontown!"
-FriendSecretGetSecret = "Obter um segredo"
-FriendSecretEnterSecret = "Se você tiver um segredo de alguém conhecido, digite-o aqui."
+FriendSecretNeedsPasswordWarningWrongPassword = """Esta não é a senha correta. Insira a Senha da conta dos pais criada na compra desta conta. Não é a mesma senha usada para os jogos."""
+FriendSecretIntro = "Se você estiver jogando Toontown Online da Disney com alguém que conhece no mundo real, poderá tornar-se Amigo verdadeiro dessa pessoa. Você pode conversar com seus Amigos verdadeiros usando o teclado. Os outros Toons não entenderão o que vocês estiverem falando.\n\nVocê pode conseguir isto obtendo um segredo. Conte o código de amigo verdadeiro só ao seu amigo, e a mais ninguém. Quando o seu amigo digitar o seu segredo na tela, vocês dois serão Amigos verdadeiros em Toontown!"
+FriendSecretGetSecret = "Obter um código de amigo verdadeiro"
+FriendSecretEnterSecret = "Se você tiver um código de amigo verdadeiro de alguém conhecido, digite-o aqui."
 FriendSecretOK = lOK
-FriendSecretEnter = "Inserir segredo"
+FriendSecretEnter = "Inserir código de amigo verdadeiro"
 FriendSecretCancel = lCancel
 FriendSecretGettingSecret = "Obtendo segredo. . ."
 FriendSecretGotSecret = "Este é o seu novo segredo. Não deixe de anotá-lo em algum lugar!\n\nVocê só pode dar este segredo a uma pessoa. Depois que alguém digitar o seu segredo, ele não funcionará para nenhuma outra pessoa. Se você quiser dar um segredo para mais de uma pessoa, obtenha outro.\n\nO segredo só funcionará nos próximos dois dias. O seu amigo terá que digitá-lo antes que expire, caso contrário, não funcionará.\n\nO segredo é:"
 FriendSecretTooMany = "Sinto muito, você não pode ter mais segredos hoje. Você já obteve mais do que a parte que lhe cabia!\n\nTente novamente amanhã."
 FriendSecretTryingSecret = "Tentando usar segredo. . ."
-FriendSecretEnteredSecretSuccess = "Agora, você é Amigo secreto de %s!"
+FriendSecretEnteredSecretSuccess = "Agora, você é Amigo Verdadeiro de %s!"
 FriendSecretTimeOut = "Sorry, secrets are not working right now."
 FriendSecretEnteredSecretUnknown = "Este segredo não existe. Tem certeza de que digitou certo?\n\nSe você tiver digitado certo, ele pode ter expirado. Peça ao seu amigo para pegar outro segredo para você (ou pegue um novo você mesmo e dê ao seu amigo)."
 FriendSecretEnteredSecretFull = "Você não pode fazer amizade com %s porque um de vocês dois possui amigos demais na lista."
 FriendSecretEnteredSecretFullNoName = "Vocês não podem fazer amizade porque um de vocês dois possui amigos demais na lista."
 FriendSecretEnteredSecretSelf = "Você acabou de digitar seu próprio segredo! Agora, ninguém mais poderá usar este segredo."
 FriendSecretEnteredSecretWrongProduct = "Você digitou o tipo errado de Código de Amigo Verdadeiro.\nEste jogo utiliza códigos que começam com '%s'."
-FriendSecretNowFriends = "Agora, você é Amigo secreto de %s!"
-FriendSecretNowFriendsNoName = "Agora, vocês são Amigos secretos!"
+FriendSecretNowFriends = "Agora, você é Amigo Verdadeiro de %s!"
+FriendSecretNowFriendsNoName = "Agora, vocês são Amigos verdadeiros!"
 FriendSecretDetermineSecret = "Que tipo de Amigo Verdadeiro você quer ter?"
 FriendSecretDetermineSecretAvatar = "Avatar"
 FriendSecretDetermineSecretAvatarRollover = "Um amigo somente neste jogo"
@@ -430,71 +747,67 @@ FriendSecretDetermineSecretAccount = "Conta"
 FriendSecretDetermineSecretAccountRollover = "Um amigo em toda a rede Disney.com"
 
 # GuildMember.py
-GuildMemberTitle = "Opções do Associado"
-GuildMemberPromote = "Tornar-se Oficial"
-GuildMemberPromoteInvite = "Make Veteran"
-GuildMemberDemoteInvite = "Demote to Veteran"
-GuildMemberGM = "Tornar-se Guildmaster (Mestre da Guilda)"
-GuildMemberGMConfirm = "Confirm"
-GuildMemberDemote = "Rebaixar"
-GuildMemberKick = "Expulsar Associado"
+GuildMemberTitle = "Opções do Membro"
+GuildMemberPromote = "Tornar Oficial"
+GuildMemberPromoteInvite = "Tornar Veterano"
+GuildMemberDemoteInvite = "Rebaixar para Veterano"
+GuildMemberGM = "Tornar Mestre(a) da Guilda"
+GuildMemberGMConfirm = "Confirmar"
+GuildMemberDemote = "Rebaixar para Membro"
+GuildMemberKick = "Expulsar Membro"
 GuildMemberCancel = lCancel
-GuildMemberOnline = "entrou on-line."
-GuildMemberOffline = "saiu e está off-line."
+GuildMemberOnline = "%s ficou online."
+GuildMemberOffline = "%s ficou off-line."
 GuildPrefix = "(G):"
-GuildNewMember = "Novo Associado da Guilda"
-GuildMemberUnknown = "Unknown"
-GuildMemberGMMessage = "Warning! Would you like to give up leadership of your guild and make %s your guild master?\n\nYou will become an officer"
+GuildNewMember = "Novo Mestre(a) da Guilda"
+GuildMemberUnknown = "Desconhecido"
+GuildMemberGMMessage = "Aviso!  Você gostaria de desistir da liderança de sua guilda e tornar %s seu mestre da guilda?\n\nVocê se tornará um oficial"
 
 # GuildInvitee.py
 GuildInviteeOK = lOK
 GuildInviteeNo = lNo
-GuildInviteeInvitation = "%s convida você para se juntar a %s."
-
-GuildRedeemErrorInvalidToken = "Sinto muito, esse código é inválido. Por favor, tente novamente."
-GuildRedeemErrorGuildFull = "Sinto muito, a guilda já tem muitos associados."
+GuildInviteeInvitation = "%s está convidando você para se juntar a %s."
 
 # FriendInvitee.py
-FriendInviteeTooManyFriends = "%s quer fazer amizade com você, mas você já tem muitos amigos em sua lista!"
-FriendInviteeInvitation = "%s quer fazer amizade com você."
-FriendInviteeInvitationPlayer = "O jogador de %s\\ quer fazer amizade com você."
-FriendNotifictation = "%s agora é seu amigo."
+FriendInviteeTooManyFriends = "%s gostaria de ser seu amigo, mas você já tem muitos amigos na sua lista!"
+FriendInviteeInvitation = "%s gostaria de ser seu amigo."
+FriendNotifictation = "%s é agora seu amigo."
 FriendInviteeOK = lYes
 FriendInviteeNo = lNo
 GuildInviterWentAway = "%s não está mais presente."
-GuildInviterAlready = "%s já está na guilda."
-GuildInviterBusy = "%s está ocupado no momento."
-GuildInviterNotYet = "Convidar %s para se juntar à sua guilda?"
+GuildInviterAlready = "%s já está em uma guilda."
+GuildInviterBusy = "%s está ocupado agora."
+GuildInviterNotYet = "Convidar %s para entrar na sua guilda?"
 GuildInviterCheckAvailability = "Convidando %s para se juntar à sua guilda."
 GuildInviterOK = lOK
 GuildInviterNo = lNo
 GuildInviterCancel = lCancel
 GuildInviterYes = lYes
-GuildInviterTooFull = "A guilda está completa."
+GuildInviterTooFull = "A guilda atingiu o tamanho máximo."
 GuildInviterNo = lNo
-GuildInviterClickToon = "Clique no pirata que deseja convidar."
-GuildInviterTooMany = "Isso é um inseto"
-GuildInviterNotAvailable = "%s está ocupado no momento; tente mais tarde."
-GuildInviterGuildSaidNo = "%s não quer participar."
+GuildInviterClickToon = "Clique no pirata que você deseja convidar."
+GuildInviterTooMany = "Isso é um bug."
+GuildInviterNotAvailable = "%s está ocupado agora; tente novamente mais tarde."
+GuildInviterGuildSaidNo = "%s recusou seu convite para guilda."
 GuildInviterAlreadyInvited = "%s já foi convidado."
-GuildInviterEndGuildship = "Expulsar %s da guilda?"
+GuildInviterEndGuildship = "Remover %s da guilda?"
 GuildInviterFriendsNoMore = "%s saiu da guilda."
 GuildInviterSelf = "Você já está na guilda!"
 GuildInviterIgnored = "%s está ignorando você."
-GuildInviterAsking = "Perguntando a %s para se juntar à guilda."
-GuildInviterGuildSaidYes = "%s vai participar!"
-GuildInviterFriendKickedOut = "%s has kicked out %s from the Guild."
-GuildInviterFriendKickedOutP = "%s have kicked out %s from the Guild."
-GuildInviterFriendInvited = "%s has invited %s to the Guild."
-GuildInviterFriendInvitedP = "%s have invited %s to the Guild."
-GuildInviterFriendPromoted = "%s has promoted %s to the rank of %s."
-GuildInviterFriendPromotedP = "%s have promoted %s to the rank of %s."
-GuildInviterFriendDemoted = "%s has demoted %s to the rank of %s."
-GuildInviterFriendDemotedP = "%s have demoted %s to the rank of %s."
-GuildInviterFriendPromotedGM = "%s has named %s as the new %s"
-GuildInviterFriendPromotedGMP = "%s have named %s as the new %s"
-GuildInviterFriendDemotedGM = "%s has been named by %s as the new GuildMaster who became the rank of %s"
-GuildInviterFriendDemotedGMP = "%s have been named by %s as the new GuildMaster who beaome the rank of %s"
+GuildInviterAsking = "Pedindo %s para entrar na guilda."
+GuildInviterGuildSaidYes = "%s irá juntar-se!"
+GuildInviterFriendKickedOut = "%s tinha expulsado o(a) %s da guilda."
+GuildInviterFriendKickedOutP = "%s tenha expulsado o(a) %s da guilda."
+GuildInviterFriendInvited = "%s tem o convite do (a)%s para a guilda."
+GuildInviterFriendInvitedP = "%s ter o convite do(a) %s para a guilda."
+GuildInviterFriendPromoted = "%s tem promovido o(a) %s para o rank de %s."
+GuildInviterFriendPromotedP = "%s ter promovido o(a) %s para o rank de %s."
+GuildInviterFriendDemoted = "%s tem rebaixado o(a) %s para o rank de %s."
+GuildInviterFriendDemotedP = "%s ter rebaixado o(a) %s para o rank de %s."
+GuildInviterFriendPromotedGM = "%s tem nomeado %s como o novo(a) %s"
+GuildInviterFriendPromotedGMP = "%s ter nomeado %s como o novo(a) %s"
+GuildInviterFriendDemotedGM = "%s foi  nomeado por %s como o novo(a) Mestre(a) da Guilda who became the rank of %s"
+GuildInviterFriendDemotedGMP = "%s foram nomeado por %s como o novo(a) Mestre(a) da Guilda who became the rank of %s"
 
 # FriendInviter.py
 FriendOnline = "entrou on-line."
@@ -502,7 +815,6 @@ FriendOffline = "saiu e está off-line."
 FriendInviterOK = lOK
 FriendInviterCancel = lCancel
 FriendInviterStopBeingFriends = "Interromper amizade"
-FriendInviterConfirmRemove = "Remove"
 FriendInviterYes = lYes
 FriendInviterNo = lNo
 FriendInviterClickToon = "Clique no Toon com o qual deseja fazer amizade."
@@ -512,18 +824,16 @@ FriendInviterPlayerTooMany = "Você tem amigos jogadores demais em sua lista par
 FriendInviterNotYet = "Deseja fazer amizade com %s?"
 FriendInviterCheckAvailability = "Verificando se %s está disponível."
 FriendInviterNotAvailable = "%s está ocupado(a) agora; tente novamente mais tarde."
-FriendInviterCantSee = "Isso só funciona se puder ver %s."
-FriendInviterNotOnline = "Isso só funciona se %s estiver on-line"
-FriendInviterNotOpen = "%s não tem um bate-papo aberto, use segredos para fazer amigos"
+FriendInviterNotOpen = "%s não tem um bate-papo aberto, use código de amigos verdadeiros para fazer amigos"
 FriendInviterWentAway = "%s saiu."
 FriendInviterAlready = "%s já é seu(sua) amigo(a)."
 FriendInviterAlreadyInvited = "%s já recebeu o convite."
-FriendInviterAskingCog = "Pedindo a %s para fazer amizade com você."
+FriendInviterAskingCog = "Pedindo %s para fazer amizade com você."
 FriendInviterAskingPet = "%s pula à sua volta, corre em círculos e lambe seu rosto."
 FriendInviterAskingMyPet = "%s já é seu(sua) MELHOR amigo(a)."
-FriendInviterEndFriendship = "Tem certeza de que você deseja interromper a amizade com %s?"
+FriendInviterEndFriendship = "Tem certeza de que você deseja deixar a amizade com %s?"
 FriendInviterFriendsNoMore = "%s não é mais seu(sua) amigo(a)."
-FriendInviterSelf = "Você já tem amizade com você mesmo(a)!"
+FriendInviterSelf = "Você já é 'amigo' de você mesmo(a)!"
 FriendInviterIgnored = "%s está ignorando você."
 FriendInviterAsking = "Pedindo a %s para fazer amizade com você."
 FriendInviterFriendSaidYes = "%s disse sim!"
@@ -540,7 +850,7 @@ TalkParty = "P"
 TalkPVP = "PVP"
 
 #Spam Blocked Message
-AntiSpamInChat = '***Envio de Spam***'
+AntiSpamInChat = "***Spamming***"
 
 #IgnoreConfirm.py
 IgnoreConfirmOK = lOK
@@ -565,15 +875,15 @@ EmoteList = [
  "Sonolento",
  "Dar de ombros",
  "Dançante",
- "Piscar",
- "Entediado",
- "Palmas",
- "Surpreso",
+ "Pensar",
+ "Entediado(a)",
+ "Aplaudir",
+ "Desgosto",
  "Confuso",
- "Debochar",
- "Saudar",
- "Muito triste",
- "Sorrisão",
+ "Barriga Flop",
+ "Arco",
+ "Casca de Banana",
+ "Saudação de resistência",
  "Risada",
  lYes,
  lNo,
@@ -583,15 +893,15 @@ EmoteList = [
  "Alegre",
  "Raiva",
  "Risada"
-##    "Sing Note G1",
-##    "Sing Note A",
-##    "Sing Note B",
-##    "Sing Note C",
-##    "Sing Note D",
-##    "Sing Note E",
-##    "Sing Note F",
-##    "Sing Note G2",
-##    "Sing Note Rest",
+##    "Cantar Nota G1",
+##    "Cantar Nota  A",
+##    "Cantar Nota B",
+##    "Cantar Nota  C",
+##    "Cantar Nota  D",
+##    "Cantar Nota  E",
+##    "Cantar Nota  F",
+##    "Cantar Nota  G2",
+##    "Cantar Nota Resto",
  ]
 
 EmoteWhispers = [
@@ -602,13 +912,13 @@ EmoteWhispers = [
  "%s está sonolento.",
  "%s dá de ombros.",
  "%s dança.",
- "%s pisca.",
+ "%s pensa.",
  "%s está entediado.",
  "%s aplaude.",
  "%s está surpreso.",
  "%s está confuso.",
- "%s debocha de você.",
- "%s saúda você.",
+ "%s escorrega em uma casca de banana.",
+ "%s dá a saudação de resistência.",
  "%s está muito triste.",
  "%s sorri.",
  "%s dá risada.",
@@ -667,29 +977,29 @@ EmoteFuncDict = {
     "Sing Note F" : 31,
     "Sing Note G2" : 32,
     }
-
-# SuitDialog.py
+    
+    # SuitDialog.py
 SuitBrushOffs = {
     'f':  ["Estou atrasado para uma reunião.",
            ],
     'p':  ["Sai fora.",
            ],
-    'ym': ['As vaquinhas de presépio dizem NÃO.',
+    'ym': ['Homens-Sim dizem NÃO.',
            ],
     None: ["É o meu dia de folga.",
-           "Acho que você está no escritório errado.",
-           "Fale para o seu pessoal falar com o meu.",
-           "Você não tem cacife para se encontrar comigo.",
+           "Eu acredito que você está no escritório errado.",
+           "Peça ao seu pessoal que ligue para o meu povo.",
+           "Você não está em posição de se encontrar comigo.",
            "Fale com o meu assistente."]
     }
 
 SuitFaceoffTaunts = {
     'b':  ["Você tem uma doação para mim?",
-           "Você vai detestar perder a parada.",
-           "Você não vai ter salvação.",
-           "Sou \"A Positivo\", portanto, vou ganhar.",
+           "Vou fazer de você um péssimo perdedor.",
+           "Vou deixar você em paz..",
+           "Eu sou \"A Positivo\", vou vencer.",
            "\"O\"não seja tão \"Negativo\".",
-           "É uma surpresa você ter me achado; não tenho parada.",
+           "Estou supreso que você me encontrou, sou muito móvel.",
            "Vou precisar fazer uma rápida contagem em você.",
            "Em breve, você vai precisar comer biscoito e tomar um suco.",
            "Quando eu terminar, você vai precisar dar uma descansada.",
@@ -697,10 +1007,10 @@ SuitFaceoffTaunts = {
            "Vou deixar você tonto.",
            "Na hora certa, só estou um pouquinho abaixo.",
            ],
-    'm':  ["Você não sabe com quem está se metendo.",
+    'm':  ["Você não sabe quem você está se misturando.",
            "Nunca se meteu com alguém da minha turma?",
-           "Isso é bom, quando um não quer dois não se misturam.",
-           "Vamos fazer amizade.",
+           "Bom, é preciso dois não para misturar.",
+           "Vamos fazer mistura.",
            "Parece um bom lugar para confraternizar.",
            "Não é confortável?",
            "Vocês estão se unindo com a derrota.",
@@ -1063,18 +1373,15 @@ SuitFaceoffTaunts = {
            "Vou passar a parada para você.",
            ]
     }
-
 # These are all the standard SpeedChat phrases.
 # The indices must fit into 16 bits (0..65535)
-SpeedChatStaticTextCommon = {
+SpeedChatStaticText = {
     # top-level
     1 : lYes,
     2 : lNo,
     3 : lOK,
     4 : "SPEEDCHAT PLUS",
-    }
 
-SpeedChatStaticTextToontown = {
     # Hello
     100 : "Oi!",
     101 : "Olá!",
@@ -1225,7 +1532,7 @@ SpeedChatStaticTextToontown = {
     1108 : "Vamos para os Jardins da Margarida!",
     1109 : "Vamos para O Brrrgh!",
     1110 : "Vamos para a Sonholândia do Donald!",
-    1111 : "Vamos para a %s !" % lGoofySpeedway,
+    1111 : "Vamos para a minha casa!",
     1112 : "Vamos para a minha casa!",
     1113 : "Vamos para a sua casa!",
     1114 : "Vamos para o Quartel do Robô Vendedor!",
@@ -1244,8 +1551,6 @@ SpeedChatStaticTextToontown = {
     1127 : "Vamos para o Quartel do Robô Chefe!",
     1128 : "Vamos lutar com o Presidente!",
     1129 : "Vamos para o Campo de Golfe Cog!",
-    #1130 : "Let's go take over a Cogdominium!",
-    1130 : "Let's go take over a Field Office!",
 
     # Toontasks
     1200 : "Em que Tarefa Toon você está trabalhando?",
@@ -1429,10 +1734,6 @@ SpeedChatStaticTextToontown = {
     2007 : "Vermelho",
     2008 : "Rosa",
     2009 : "Marrom",
-    # Shader specific
-    2050 : "None",
-    2051 : "B&W",
-    2052 : "Sepia",
 
     # CFO battle
     2100 : "Opere o guindaste.",
@@ -1505,8 +1806,8 @@ SpeedChatStaticTextToontown = {
     2315 : "Depressa, seu Cog está com fome!",
     2316 : "Reserve os lanches para Toons mais tristes.",
     2317 : "Pegue os lanches antes que eles caiam.",
-
-
+ 
+ 
     #Kart Racing Phrases
     #IMPORTANT: if you change numbers or add/subtract lines here than be
     # sure to adjust the kart racing menu guid dict below
@@ -1628,79 +1929,79 @@ SpeedChatStaticTextToontown = {
 
     # Boarding Group phrases
 
-    5000 : "Vamos formar um Grupo de Abordagem.",
-    5001 : "Junte-se ao meu Grupo de Abordagem.",
-    5002 : "Você pode me convidar para o seu Grupo de Abordagem?",
-    5003 : "Já faço parte de um Grupo de Abordagem.",
-    5004 : "Sair do seu Grupo de Abordagem.",
-    5005 : "Estamos abordando agora.",
-    5006 : "Aonde vamos?",
-    5007 : "Preparados?",
-    5008 : "Vamos!",
-    5009 : "Não saia dessa área ou sairá do Grupo de Abordagem.",
+    5000 : "Let's form a Boarding Group.",
+    5001 : "Join my Boarding Group.",
+    5002 : "Can you invite me to your Boarding Group?",
+    5003 : "I'm already in a Boarding Group.",
+    5004 : "Leave your Boarding Group.",
+    5005 : "We are boarding now.",
+    5006 : "Where are we going?",
+    5007 : "Are we ready?",    
+    5008 : "Let's Go!",
+    5009 : "Don't leave this area or you will leave the Boarding Group.",
 
     # Let's Go to...
-    5100 : "Vamos para o Três da Frente.",
-    5101 : "Vamos para o Seis do Meio.",
-    5102 : "Vamos para o Nove dos Fundos.",
-    5103 : "Vamos para a Batalha do Presidente.",
-    5104 : "Vamos para a Batalha do V. P. Sênior.",
-    5105 : "Vamos para a Entrada da Frente.",
-    5106 : "Vamos para a Entrada dos Fundos.",
-    5107 : "Vamos para a Casa da Moeda.",
-    5108 : "Vamos para a Casa da Moeda de Dólar.",
-    5109 : "Vamos para a Casa da Moeda de Barras de Ouro.",
-    5110 : "Vamos para a Batalha do Diretor Financeiro.",
-    5111 : "Vamos para a Batalha do Juiz-Chefe.",
-    5112 : "Vamos para o Escritório da Lei A.",
-    5113 : "Vamos para o Escritório da Lei B.",
-    5114 : "Vamos para o Escritório da Lei C.",
-    5115 : "Vamos para o Escritório da Lei D.",
+    5100 : "Let's go to the Front Three.",
+    5101 : "Let's go to the Middle Six.",
+    5102 : "Let's go to the Back Nine.",
+    5103 : "Let's go to the C.E.O. Battle.",
+    5104 : "Let's go to the Senior V.P Battle.",
+    5105 : "Let's go to the Front Entrance.",
+    5106 : "Let's go to the Side Entrance.",    
+    5107 : "Let's go to the Coin Mint.",
+    5108 : "Let's go to the Dollar Mint.",
+    5109 : "Let's go to the Bullion Mint.",
+    5110 : "Let's go to the C.F.O. Battle.",
+    5111 : "Let's go to the Chief Justice Battle.",
+    5112 : "Let's go to the Lawbot A Office.",
+    5113 : "Let's go to the Lawbot B Office.",
+    5114 : "Let's go to the Lawbot C Office.",
+    5115 : "Let's go to the Lawbot D Office.",
 
     # We're going to...
-    5200 : "Estamos indo para o Três da Frente.",
-    5201 : "Estamos indo para o Seis do Meio.",
-    5202 : "Estamos indo para o Nove dos Fundos.",
-    5203 : "Estamos indo para a Batalha do Presidente.",
-    5204 : "Estamos indo para a Batalha do V. P. Sênior.",
-    5205 : "Estamos indo para a Entrada da Frente.",
-    5206 : "Estamos indo para a Entrada dos Fundos.",
-    5207 : "Estamos indo para a Casa da Moeda.",
-    5208 : "Estamos indo para a Casa da Moeda de Dólar.",
-    5209 : "Estamos indo para a Casa da Moeda de Barras de Ouro.",
-    5210 : "Estamos indo para a Batalha do Diretor Financeiro.",
-    5211 : "Estamos indo para a Batalha do Juiz-Chefe.",
-    5212 : "Estamos indo para o Escritório da Lei A.",
-    5213 : "Estamos indo para o Escritório da Lei B.",
-    5214 : "Estamos indo para o Escritório da Lei C.",
-    5215 : "Estamos indo para o Escritório da Lei D.",
+    5200 : "We're going to the Front Three.",
+    5201 : "We're going to the Middle Six.",
+    5202 : "We're going to the Back Nine.",
+    5203 : "We're going to the C.E.O. Battle.",
+    5204 : "We're going to the Senior V.P Battle.",
+    5205 : "We're going to the Front Entrance.",
+    5206 : "We're going to the Side Entrance.",    
+    5207 : "We're going to the Coin Mint.",
+    5208 : "We're going to the Dollar Mint.",
+    5209 : "We're going to the Bullion Mint.",
+    5210 : "We're going to the C.F.O. Battle.",
+    5211 : "We're going to the Chief Justice Battle.",
+    5212 : "We're going to the Lawbot A Office.",
+    5213 : "We're going to the Lawbot B Office.",
+    5214 : "We're going to the Lawbot C Office.",
+    5215 : "We're going to the Lawbot D Office.",
 
     # Parties General Phrases
-    5300 : "Vamos para uma festa.",
-    5301 : "Vejo você na festa!",
-    5302 : "Minha festa começou!",
-    5303 : "Venha para minha festa!",
+    5300 : "Let's go to a party.",
+    5301 : "See you at the party!",
+    5302 : "My party has started!",
+    5303 : "Come to my party!",
     # Parties Phrases when inside a party
-    5304 : "Vamos brincar de Cabo de Guerra!",
-    5305 : "Vamos brincar de Pega-pega!",
-    5306 : "Vamos dançar!",
-    5307 : "Para a pista de dança!",
-    5308 : "Lançar fogos de artifício!",
-    5309 : "Veja como eu pulo!",
-    5310 : "Gosto dessa música!",
-    5311 : "Essa música é legal!",
-    5312 : "Esta festa é maneira!",
-    5313 : "Sua festa é animada!",
-    5314 : "Trampolins são divertidos!",
-    5315 : "É hora da diversão!",
-    5316 : "Canhões são uma curtição!",
-    5317 : "O tempo está acabando!",
-    5318 : "Decoração bacana.",
-    5319 : "Eu queria comer esse bolo!",
-    5320 : "Esses fogos de artifício são lindos!",
-    5321 : "Cogs não entram!",
-    5322 : "Queria comer este bolo!",
-
+    5304 : "Welcome to my party!",
+    5305 : "This party rules!",
+    5306 : "Your party is fun!",
+    5307 : "It's party time!",
+    5308 : "Time is running out!",
+    5309 : "No cogs allowed!",
+    5310 : "I like this song!",
+    5311 : "This music is great!",
+    5312 : "Cannons are a blast!",
+    5313 : "Watch me jump!",
+    5314 : "Trampolines are fun!",
+    5315 : "Let's play Catch!",
+    5316 : "Let's dance!",
+    5317 : "To the dance floor!",
+    5318 : "Let's play Tug of War!",    
+    5319 : "Start the fireworks!",
+    5320 : "These fireworks are beautiful!",
+    5321 : "Nice decorations.",
+    5322 : "I wish I could eat this cake!",
+        
     # Promotional Considerations
     10000 : "A escolha é sua!",
     10001 : "Você vai votar em quem?",
@@ -2110,161 +2411,161 @@ SpeedChatStaticTextToontown = {
     21006: 'Por favor, não me chateie.',
 
     # Pet/Doodle Tricks
-    21200: 'Pule!',
-    21201: 'Dê a pata!',
-    21202: 'Finja de morto!',
-    21203: 'Role!',
-    21204: 'Dê cambalhota!',
-    21205: 'Dance!',
-    21206: 'Fale!',
-
-    # Phrases for April Toon's week
-    30100 : "Feliz Semana Abril Toons!",
-    30101 : "Bem-vindo à minha festa da Semana Abril Toons!",
+    21200: 'Pula!',
+    21201: 'Dá a pata!',
+    21202: 'Finge de morto!',
+    21203: 'Rola!',
+    21204: 'Faz cambalhota!',
+    21205: 'Dança!',
+    21206: 'Fala!',
+    
+     # Phrases for April Toon's week
+    30100 : "Happy April Toons' Week!",
+    30101 : "Welcome to my April Toons' Week party!",
     30102 : "The Silly Meter is back in Toon Hall!",
-    30110 : "Mickey está nos Jardins da Margarida.",
-    30111 : "Margarida está na Central Toontown.",
-    30112 : "Minnie está no Brrrgh.",
-    30113 : "Pluto está na Terra da Melodia.",
-    30114 : "Donald, sonâmbulo, está perambulando no Circuito.",
-    30115 : "Pateta está na Terra dos Sonhos.",
-
-    30120 : "Mickey está imitando Margarida!",
-    30121 : "Margarida está imitando Mickey!",
-    30122 : "Minnie está imitando Pluto!",
-    30123 : "Pluto está imitando Minnie!",
-    30124 : "Pluto está falando!",
-    30125 : "Pateta está imitando Donald!",
-    30126 : "Donald está sonhando que é o Pateta!",
-
-    30130 : "Veja como posso saltar longe.",
-    30131 : "Uau, você saltou realmente longe!",
-    30132 : "Ei, Doodles podem falar!",
-    30133 : "O seu Doodle acabou de falar?",
-    30140 : "As coisas certamente são bobinhas por aqui!",
-    30141 : "As coisas são bobinhas mesmo, hein?",
+    30110 : "Mickey is in Daisy Gardens.",
+    30111 : "Daisy is in Toontown Central.",
+    30112 : "Minnie is in The Brrrgh.",
+    30113 : "Pluto is in Melodyland.",
+    30114 : "Donald is sleepwalking at the Speedway.",
+    30115 : "Goofy is in Dreamland.",
+    
+    30120 : "Mickey is acting like Daisy!",
+    30121 : "Daisy is acting like Mickey!",
+    30122 : "Minnie is acting like Pluto!",
+    30123 : "Pluto is acting like Minnie!",
+    30124 : "Pluto is talking!",
+    30125 : "Goofy is acting like Donald!",
+    30126 : "Donald is dreaming he is Goofy!",
+    
+    30130 : "Watch how far I can jump.",
+    30131 : "Wow, you jumped really far!",
+    30132 : "Hey, Doodles can talk!",
+    30133 : "Did your Doodle just talk?",
+    30140 : "Things sure are silly around here!",
+    30141 : "How sillier could things get?",
 
     # Phrases for Sellbot Nerf Event
-    30150 : "Aqui está a Operação: Robô Vendedor Tempestade!",
-    30151 : "As Torres dos Robô Vendedor tiveram seus poderes sugados por Doodles!",
-    30152 : "O VP teve seus poderes sugados por Doodles!",
-    30153 : "Todos podem lutar contra o VP agora!",
-    30154 : "Você não precisa de um Traje de Robô Vendedor para lutar contra o VP!",
-    30155 : "Você ganha um Traje de Aluguel quando entrar nas Torres dos Robôs Vendedores.",
-    30156 : "Você gosta do meu Traje de Aluguel? Desculpe-me pelos alfinetes!",
-    30157 : "É melhor ter oito Toons para lutar contra o VP.",
-    30158 : "Você vai me ajudar a lutar contra o VP?",
-    30159 : "Você quer lutar contra o VP junto comigo?",
-    30160 : "Você gostaria de se juntar ao meu grupo Robô Vendedor VP?",
-    30161 : "Eu estou procurando por um Toon com um Traje de Aluguel para lutar contra o VP.",
-    30162 : "Eu tenho um Traje de Aluguel, e estou ansioso para lutar contra o VP.",
-    30163 : "Passe pelas portas e consiga o Traje de Aluguel.",
-    30164 : "Evite os Cogs na recepção! Poupe seus itens para os de dentro!",
-    30165 : "Temos que derrotar estes Cogs antes!",
-    30166 : "Bata nos barris para conquistar seus gags.",
-    30167 : "Bata no barril para ganhar um Toon-up.",
-    30168 : "Agora temos que combater alguns Skelecogs!",
-    30169 : "Pule e toque na gaiola do Toon para ganhar tortas!",
-    30170 : "Agora vamos lutar contra o VP!",
-    30171 : "Mire suas tortas apertando a tecla Del.",
-    30172 : "Dois Toons devem arremessar tortas pelas portas abertas do VP.!",
-    30173 : "Eu surpreendo o VP pela frente.",
-    30174 : "Eu surpreendo o VP por trás.",
-    30175 : "Salte quando o VP salta!",
+    30150 : "Operation: Storm Sellbot is here!",
+    30151 : "Sellbot Towers had its power drained by Doodles!",
+    30152 : "The VP had his power drained by Doodles!",
+    30153 : "Everyone can fight the VP right now!",
+    30154 : "You don't need a Sellbot Disguise to fight the VP!",
+    30155 : "You get a Rental Suit when you go into Sellbot Towers.",
+    30156 : "Do you like my Rental Suit? Sorry about the safety pins!",
+    30157 : "It's best to have eight Toons to fight the VP.",
+    30158 : "Will you help me fight the VP?",
+    30159 : "Do you want to fight the VP with me?",
+    30160 : "Would you like to join my Sellbot VP group?",
+    30161 : "I am looking for a Toon with a Rental Suit to fight the VP.",
+    30162 : "I have a Rental Suit, and am looking to fight the VP.",
+    30163 : "Just walk through the doors to get your Rental Suit.",
+    30164 : "Save your gags for the Cogs inside!",
+    30165 : "We have to defeat these Cogs first!",
+    30166 : "Bump the barrels to gag up.",
+    30167 : "Bump the barrel to get a Toon-up.",
+    30168 : "Now we have to fight some Skelecogs!",
+    30169 : "Jump up and touch the Toon's cage for pies!",
+    30170 : "Now we fight the VP!",
+    30171 : "Aim your pies by pressing the Delete button.",
+    30172 : "Two Toons should throw pies through the VP's open doors!",
+    30173 : "I'll stun the VP from the front.",
+    30174 : "I'll stun the VP from the back.",
+    30175 : "Jump when the VP jumps!",
 
     # Phrases for Jellybean Jam
-    30180 : "Meu banco contém 12.000 balinhas!",
-    30181 : "Preciso encher meu novo banco de balinha!",
-    30182 : "Quer pegar balinhas?",
-    30183 : "Consegui balinhas em dobro no Bonde!",
-    30184 : "Consegui balinhas em dobro na pescaria!",
-    30185 : "Consegui balinhas em dobro em um grupo!",
-    30186 : "Quero adotar um Doodle!",
-    30187 : "Eu adotei um Doodle!",
-    30188 : "Vou adotar um Doodle com todas essas balinhas!",
-    30189 : "Há novas camisetas Cattlelog para grupos de balinhas!",
-    30190 : "A Tropa Toon está lançando grupos de balinhas no Bosque de Bolotas!",
-    30191 : "Balinhas, por favor!",
-    30192 : "Não seja mau, me dê uma bala!",
-    30193 : "Quem quer balinhas?",
-    30194 : "Dance por balinhas!",
-
+    30180 : "I got double jellybeans on the Trolley!",
+    30181 : "I got double jellybeans from fishing!",
+    30182 : "I got double jellybeans at a party!",
+    30183 : "Jellybeans jellybeans jellybeans!",
+    30184 : "I'm really keen to earn a bean!",
+    30185 : "Don't be smelly, get beans of jelly!",
+    30186 : "I'm gonna adopt a Doodle with all these jellybeans!",
+    30187 : "What am I gonna spend all these jellybeans on?",
+    30188 : "I'm gonna throw a huge party!",
+    30189 : "I'm gonna decorate my whole Estate!",
+    30190 : "I'm gonna buy a whole new wardrobe!",
+    30191 : "Jellybeans, please!",
+    30192 : "Don't be mean, give a bean!",
+    30193 : "Who wants jellybeans?",
+    30194 : "Dance for jellybeans!",
+    
     # Phrases for caroling
-    30200 : "Decore os salões... ",
-    30201 : "Faça muitas tortas...",
-    30202 : "Toons alegres...",
-    30203 : "Cabeças de bonecos de neve...",
-    30204 : "A felicidade de Toontown...",
-    30205 : "Atraia alegria...",
-
-    30220 : "Decore os salões com neve em spray!\nBoas Festas!",
-    30221 : "Carregue seu trenó com tortas!\nBoas Festas!",
-    30222 : "Toons alegres derrotam a maldade dos Cogs!\nBoas Festas!",
-    30223 : "Os bonecos de neve estão de cabeça quente hoje!\nBoas Festas!",
-    30224 : "Toontown está feliz. Que venha o que vier!\nBoas Festas!",
-    30225 : "Atraia alegria para Toontown!\nBoas Festas!",
+    30200 : "Deck the halls... ",
+    30201 : "Load some pies...",
+    30202 : "Joyful toons...",
+    30203 : "Snowman heads...",
+    30204 : "Toontown's merry...",
+    30205 : "Lure good cheer...",
+    
+    30220 : "Deck the halls with seltzer spray!\nHappy Winter Holiday!",
+    30221 : "Load some pies into your sleigh!\nHappy Winter Holiday!",
+    30222 : "Joyful toons bring Cogs dismay!\nHappy Winter Holiday!",
+    30223 : "Snowman heads are hot today!\nHappy Winter Holiday!",
+    30224 : "Toontown's merry, come what may!\nHappy Winter Holiday!",
+    30225 : "Lure good cheer the Toontown way!\nHappy Winter Holiday!",
 
     # Phrases for Halloween
-    30250: "Bu!",
-    30251: "Feliz Halloween!",
-    30252: "Assustador!",
+    30250: "Boo!",
+    30251: "Happy Halloween!",
+    30252: "Spooky!",
 
     # Phrases for Christmas
-    30275: "Boas-festas!",
-    30276: "Feliz Ano-Novo!",
-    30277: "Tenha um inverno maravilhoso!",
-
+    30275: "Happy holidays!",
+    30276: "Season's greetings!",
+    30277: "Have a Wonderful Winter!",    
+    
     # Phrases for Silly Story
-    30301 : "Você viu o Medidor de Bobagens?",
-    30302 : "O Medidor de Bobagens está no Salão de Desenhos.",
-    30303 : "As coisas certamente são bobinhas por aqui!",
-    30304 : "Eu vi um hidrante se mexendo!",
-    30305 : "Toontown está ganhando vida!",
-    30306 : "Já esteve no novo escritório do Flippy?",
-    30307 : "Eu causei uma Onda de Bobagem na batalha!",
-    30308 : "Vamos derrotar alguns Cogs para deixar Toontown mais bobinha!",
-
-    30309 : "O Medidor de Bobagens está maior e mais doido do que nunca!",
-    30310 : "Um monte de hidrantes ganhou vida!",
-    30311 : "Eu vi uma caixa de correio se mexendo!",
-    30312 : "Eu vi uma lixeira acordando!",
-    30313 : "Quão bobo pode ser isso?",
-    30314 : "O que vai acontecer a seguir?",
-    30315 : "Algo bobinho, aposto!",
-    30316 : "Já causou uma Onda de Bobagem?",
-    30317 : "Vamos derrotar alguns Cogs para deixar Toontown mais bobinha!",
-
-    30318 : "Invasão de Cogs!",
-    30319 : "Chegando!",
-    30320 : "Vamos impedir esses Cogs de avançarem!",
-    30321 : "Errei as Ondas de Bobagens!",
-    30322 : "Vamos impedir a Invasão!",
-    30323 : "Agora Toontown está mais bobinha do que nunca!",
-    30324 : "Você viu alguma coisa ganhar vida?",
-    30325 : "Meus favoritos são os hidrantes!",
-    30326 : "Minhas favoritas são as caixas de correio!",
-    30327 : "Minhas favoritas são as lixeiras!",
-
-    30328 : "Viva! Impedimos a Invasão de Cogs",
-    30329 : "Um hidrante me ajudou na batalha!",
-    30330 : "Um hidrante reforçou meus Itens de Esguicho!",
-    30331 : "Uma lixeira me deu um Toon-Up!",
-    30332 : "Uma caixa de correio ajudou com os Itens de Arremesso!",
-
+    30301 : "Have you seen the Silly Meter?",
+    30302 : "The Silly Meter is in Toon Hall.",
+    30303 : "Things sure are getting silly around here!",
+    30304 : "I saw a fire hydrant moving!",
+    30305 : "Toontown is coming to life!",
+    30306 : "Have you been to Flippy's new office?",
+    30307 : "I caused a Silly Surge in battle!",
+    30308 : "Let's defeat some Cogs to make Toontown sillier!",
+    
+    30309 : "The Silly Meter is bigger and crazier than ever!",
+    30310 : "Lots of hydrants have come alive!",
+    30311 : "I saw a mail box moving!",
+    30312 : "I watched a trash can wake up!",
+    30313 : "How silly can it get?",
+    30314 : "What\'s going to happen next?",
+    30315 : "Something silly, I bet!",
+    30316 : "Have you caused a Silly Surge yet?",
+    30317 : "Let's defeat some Cogs to make Toontown sillier!",
+    
+    30318 : "Cog Invasion!",
+    30319 : "Incoming!",
+    30320 : "Let\'s stop those Cogs!",
+    30321 : "I miss the Silly Surges!",
+    30322 : "Let\'s go stop an Invasion!",
+    30323 : "Toontown is sillier than ever now!",
+    30324 : "Have you seen something come alive?",
+    30325 : "My favorites are the fire hydrants!",
+    30326 : "My favorites are the mailboxes!",
+    30327 : "My favorites are the trash cans!",
+    
+    30328 : "Hooray! We stopped the Cog invasions!",
+    30329 : "A hydrant helped me in battle!",
+    30330 : "A hydrant boosted my Squirt Gags!",
+    30331 : "A trash can boosted my Toon-Up Gags!",
+    30332 : "A mailbox helped my Throw Gags!",
+    
     # Phrases for Victory Parties (warning 30400 is in use)
-    30350 : "Bem-vindos à minha festa da vitória!",
-    30351 : "Esta é uma ótima festa da vitória!",
-    30352 : "Mostramos àqueles Cogs quem é que manda!",
-    30353 : "Bom trabalho em ajudar a impedir as invasões de Cogs!",
-    30354 : "Aposto que isto está deixando os Cogs doidos!",
-
-    30355 : "Vamos encarar uma Cog-O-War!",
-    30356 : "Minha equipe venceu na Cog-O-War!",
-    30357 : "É legal ter hidrantes, lixeiras e caixas de correio aqui!",
-    30358 : "Gosto quando o balão do Doodle morde o Cog!",
-    30359 : "Gosto do balão do Cog coberto de sorvete!",
-    30360 : "Gosto quando o Cog agita seus braços!",
-    30361 : "Pulei na cara de um Cog!",
+    30350 : "Welcome to my Victory Party!",
+    30351 : "This is a great Victory Party!",
+    30352 : "We showed those Cogs who's boss!",
+    30353 : "Good job helping end the Cog invasions!",
+    30354 : "I bet this is driving the Cogs crazy!",
+    
+    30355 : "Let's play Cog-O-War!",
+    30356 : "My team won at Cog-O-War!",
+    30357 : "It's nice to have fire hydrants, trash cans, and mailboxes here!",
+    30358 : "I like the balloon of the Doodle biting the Cog!",
+    30359 : "I like the balloon of the Cog covered in ice cream!",
+    30360 : "I like the wavy Cog that flaps his arms!",
+    30361 : "I jumped on a Cog's face!",
 
     # Phrases for Sellbot Field Offices
     30400: "The Sellbots are invading!",
@@ -2283,7 +2584,7 @@ SpeedChatStaticTextToontown = {
     30413: "Watch out for the Cogs!",
     30414: "Collect Jokes to get a Toon-up at the end!",
     30415: "When the room shakes, a Mover & Shaker is nearby.",
-    30416: "Defeat all four Movers & Shakers to open the exit!",
+    30416: "Defeat all four Mover & Shakers to open the exit!",
     30417: "The exit is open!",
     30418: "It's the Boss!",
 
@@ -2291,55 +2592,16 @@ SpeedChatStaticTextToontown = {
     30450: "It's easy to be green!",
     30451: "Visit Green Bean Jeans and you can be green too!",
     30452: "It's on Oak Street in Daisy Gardens.",
-
-    # Phrases for Lawbot Nerf Event
-    30460 : "Operation: Lawbots Lose is here!",
-    30461 : "The Doodles have done it again!",
-    30462 : "The Chief Justice had his power drained by Doodles!",
-    30463 : "Everyone can fight the Chief Justice right now!",
-    30464 : "You don't need a Lawbot Disguise to fight the CJ!",
-    30465 : "You get a Rental Suit when you go into the Courtroom in Lawbot HQ.",
-    30466 : "Do you like my Rental Suit? The safety pins are so stylish!",
-    30467 : "It's best to have eight Toons to fight the CJ.",
-    30468 : "Will you help me fight the CJ?",
-    30469 : "Would you like to join my Lawbot CJ group?",
-    30470 : "I am looking for a Toon with a Rental Suit to fight the CJ.",
-    30471 : "I have a Rental Suit, and want to fight the CJ!",
-    30472 : "Just walk through the doors to get your Rental Suit.",
-    30473 : "Save your gags for the Cogs inside!",
-    30474 : "We have to defeat these Cogs first!",
-    30475 : "Bump the barrels to get a Toon-up.",
-    30476 : "Use the Chief Justice SpeedChatMenu!",
-    30477 : "Now we have to fill the jury chairs with Toons!",
-    30478 : "The more Toons we get in, the easier it will be to defeat the CJ!",
-    30479 : "Now we fight the Chief Justice!",
-    30480 : "Touch the witness stand to collect evidence.",
-    30481 : "Watch out for the gavels!",
-    30482 : "When you hit the scale, the CJ turns red!",
-    30483 : "When the Cogs get evidence in the scale, the CJ turns green!",
-    30484 : "Something cool happens if we stun all the Cogs at once!",
-    30485 : "Throw evidence at Toons to give them a Toon-up!",
-
-    # Phrases for Singing
-##    9000 : 'Middle ' + 'G1',
-##    9001 : 'Middle ' + 'A',
-##    9002 : 'Middle ' + 'B',
-##    9003 : 'Middle ' + 'C',
-##    9004 : 'Middle ' + 'D',
-##    9005 : 'Middle ' + 'E',
-##    9006 : 'Middle ' + 'F',
-##    9007 : 'Middle ' + 'G2'
     }
-
 SpeedChatStaticTextPirates = {
     # PIRATES ROOT - TOP LEVEL
     50001 : 'Sim',
     50002 : 'Não',
     50003 : 'Arrr!',
-    50004 : 'Sim, sim, Capitão!',
+    50004 : "Sim, sim, Capitão!",
     50005 : 'Ok',
 
-    # EXPRESSIONS
+    # Common Expressions
     50100 : "Todos a bordo!",
     50101 : "Ei, marujo!",
     50102 : "Alto lá!",
@@ -2350,260 +2612,166 @@ SpeedChatStaticTextPirates = {
     50107 : "Claro, claro, Capitão!",
     50108 : "Ande na prancha!",
     50109 : "Continue!",
-    50110 : "Não vai sobrar ninguém para contar a história...",
-    50111 : "A finer bunch of Scoundrels yarrr eyes have never seen!",
-    50112 : "Fool me once, shame on me. Fool me twice, good luck in Davy Jones' Locker.",
-    50113 : "Ready your bravery, hoist the sails, a Caribbean Pirate never fails!",
+    50110 : "Não vai sobrar ninguém para contar a história....",
 
     # EXPRESSIONS - GREETINGS
     50700 : "Ahoy!",
-    50701 : "Ahoy, colega!",
+    50701 : "Ahoy, matey!",
     50702 : "Yo-Ho-Ho",
-    50703 : "Basta!",
-    50704 : "Ei, Fanfarrão.",
+    50703 : "Avast!",
+    50704 : "Hey Bucko.",
 
     # EXPRESSIONS - GOODBYES
-    50800 : "Até a próxima.",
-    50801 : "Bons ventos levem você.",
-    50802 : "Boa sorte.",
+    50800 : "Until next time.",
+    50801 : "May fair winds find you.",
+    50802 : "Godspeed.",
 
 
     # EXPRESSIONS - FRIENDLY
-    50900 : "Como está, colega?",
+    50900 : "How are ya, matey?",
     50901 : "",
 
     # EXPRESSIONS - HAPPY
-    51000 : "Está chovendo dobrões de ouro!",
-    51001 : "Que o vento sopre forte, o sol aqueça nossas faces e os canhões disparem certeiros!",
+    51000 : "It's like the sky is raining gold doubloons!",
+    51001 : "",
 
     # EXPRESSIONS - SAD
-    51100 : "Hoje estou atravessando mares tempestuosos.",
+    51100 : "I've been sailing some rough waters this day.",
 
     # EXPRESSIONS - SORRY
-    51200 : "Me desculpe, colega.",
-    51201 : "Perdão.",
-    51202 : "Desculpe, estava ocupado antes.",
-    51203 : "Sinto muito, já tenho planos.",
-    51204 : "Desculpe, não preciso fazer isso.",
+    51200 : "My apologies, mate.",
+    51201 : "Sorry.",
+    51202 : "Sorry, I was busy before.",
+    51203 : "Sorry, I already have plans.",
+    51204 : "Sorry, I don't need to do that.",
 
     # COMBAT
-    51300 : "Ataque o mais fraco!",
-    51301 : "Ataque o mais forte!",
-    51302 : "Ataque meu alvo!",
-    51303 : "Preciso de ajuda!",
-    51304 : "Não consigo causar dano!",
-    51305 : "Acho que estamos encrencados.",
-    51306 : "Cerque o mais poderoso.",
-    51307 : "Vamos fugir.",
-    51308 : "Não deixe escapar!",
+    51300 : "Attack the weakest one!",
+    51301 : "Attack the strongest one!",
+    51302 : "Attack my target!",
+    51303 : "I need help!",
+    51304 : "I can't do any damage!",
+    51305 : "I think we're in trouble.",
+    51306 : "Surround the most powerful one.",
+    51307 : "We should retreat.",
+    51308 : "Run for it!",
 
     # SEA COMBAT
-    51400 : "Disparar a toda carga!",
-    51401 : "Bombordo! (esquerda)",
-    51402 : "Estibordo! (direita)",
-    51403 : "Chegando!",
-    51404 : "Virando de lado!",
-    51405 : "Costado! Protejam-se!",
-    51406 : "Aos canhões!",
-    51407 : "Disparar!",
-    51408 : "Cessar fogo!",
-    51409 : "Mire no mastro!",
-    51410 : "Mire no casco!",
-    51411 : "Preparar para abordar!",
-    51412 : "Ela está virando de lado.",
-    51413 : "A toda vela!",
-    51414 : "Está escapando.",
-    51415 : "Temos uma inundação!",
-    51416 : "Não podemos continuar!",
-    51417 : "Não posso disparar!",
-    51418 : "Vamos encontrar um porto para os reparos.",
-    51419 : "Homem ao mar!",
-    51420 : "Inimigo localizado.",
-    51421 : "Gentilmente, colegas!",
+    51400 : "Fire a Broadside!",
+    51401 : "Port Side! (left)",
+    51402 : "Starboard Side! (right)",
+    51403 : "Incoming!",
+    51404 : "Come about!",
+    51405 : "Broadside! Take Cover!",
+    51406 : "To the Cannons!",
+    51407 : "Open fire!",
+    51408 : "Hold your fire!",
+    51409 : "Aim for the masts!",
+    51410 : "Aim for the hull!",
+    51411 : "Prepare to board!",
+    51412 : "She's coming about.",
+    51413 : "Ramming speed!",
+    51414 : "We've got her on the run.",
+    51415 : "We're taking on water.",
+    51416 : "We can't take anymore.",
+    51417 : "I don't have a shot!",
+    51418 : "Let's find port for repair.",
+    51419 : "Man overboard!",
+    51420 : "Enemy spotted.",
+    51421 : "Handsomely now, men!",
 
     # PLACES
-    50400 : "Içar velas.",
-    50401 : "Vamos sair daqui.",
+    50400 : "Let's set sail.",
+    50401 : "Let's get out of here.",
     50402 : "Let's get out of here.",
     50403 : "Let's get out of here.",
     50404 : "Let's get out of here.",
 
     # PLACES - LETS SAIL...
-    51500 : "Vamos navegar até Port Royal.",
-    51501 : "Vamos navegar até Tortuga.",
-    51502 : "Vamos navegar até Padres Del Fuego.",
-    51503 : "Vamos navegar até Devil's Anvil (a Bigorna do Diabo).",
-    51504 : "Vamos navegar até Kingshead (a Coroa do Rei).",
-    51505 : "Vamos navegar até Isla Perdida.",
-    51506 : "Vamos navegar até Cuba.",
-    51507 : "Vamos navegar até Tormenta.",
-    51508 : "Vamos navegar até a Ilha Outcast (dos Excluídos).",
-    51509 : "Vamos navegar até Driftwood.",
-    51510 : "Vamos navegar até Cutthroat (a Garganta Cortada).",
-    51511 : "Vamos navegar até a Ilha Rumrunner (dos Contrabandistas).",
-    51512 : "Vamos navegar até Isla Cangrejos.",
-
+    51500 : "Let's sail to Port Royal.",
+    51501 : "Let's sail to Tortuga.",
+    51502 : "Let's sail to Padres Del Fuego.",
+    51503 : "Let's sail to Devil's Anvil.",
+    51504 : "Let's sail to Kingshead.",
+    51505 : "Let's sail to Isla Perdida.",
+    51506 : "Let's sail to Cuba.",
+    51507 : "Let's sail to Tormenta.",
+    51508 : "Let's sail to Outcast Isle.",
+    51509 : "Let's sail to Driftwood.",
+    51510 : "Let's sail to Cutthroat.",
+    51511 : "Let's sail to Rumrunner's Isle.",
+    51512 : "Let's sail to Isla Cangrejos.",
+    
     # PLACES - LETS HEAD TO...
-    51600 : "Vamos para a cidade.",
-    51601 : "Vamos para as docas.",
-    51602 : "Vamos para a taverna.",
+    51600 : "Let's head into town.",
+    51601 : "Let's go to the docks.",
+    51602 : "Let's go to the bar.",    
 
     # PLACES - LETS HEAD TO... - PORT ROYAL
-    51800 : "Vamos para o Forte Charles.",
-    51801 : "Vamos para o Palácio do Governador.",
+    51800 : "Let's go to Fort Charles.",
+    51801 : "Let's go to the Governor's Mansion.",
 
     # PLACES - WHERE IS ..?
-    52500 : "Onde estou, colega?",
+    52500 : "Onde estou?",
 
     # DIRECTIONS
-    51700 : "Chegamos lá.",
-    51701 : "Não sei.",
-    51702 : "Estamos na ilha errada.",
-    51703 : "Isso é na cidade.",
-    51704 : "Parece que é fora da cidade.",
-    51705 : "Terão de procurar dentro da selva.",
-    51706 : "Nas profundezas da terra.",
-    51707 : "Oh, deve ser pela costa.",
+    51700 : "You're already there.",
+    51701 : "I don't know.",
+    51702 : "You're on the wrong island.",
+    51703 : "That's in town.",
+    51704 : "Look just outside of town.",
+    51705 : "You'll have to search through the jungle.",
+    51706 : "Deeper inland.",
+    51707 : "Oh, that's by the coast.",
 
     # Insults
     50200 : "Seu rato de porão!",
     50201 : "Seu cão sarnento!",
-    50202 : "Vejo você no fundo do mar!",
+    50202 : "Te vejo no fundo do mar!",
     50203 : "Patife!",
     50204 : "Marujo de terra firme!",
-    50205 : "Cabeça de bagre!",
-    50206 : "Você precisa de uma espada afiada e inteligência aguçada.",
-    50207 : "Você tem teias de aranha na cabeça, colega!",
-    50208 : "Cuidado com o que fala ou corto sua língua!",
-    50209 : "Touch me loot and you get the boot!",
-    50210 : "The horizon be as empty as yer head.",
-    50211 : "You're a canvas shy of a full sail, aren't ye mate?",
+    50205 : "Tolo de mente confusa!",
 
     # Compliments
-    50300 : "Belo disparo, colega!",
-    50301 : "Um golpe bem dado!",
-    50302 : "Boa tentativa!",
-    50303 : "Que bom ver você!",
-    50304 : "Mostramos a eles!",
-    50305 : "Vocês não são tão ruins assim!",
-    50306 : "Que bela pilhagem fizemos!",
-
-    # Adventures
-    50500 : "Vamos içar velas!",
-    50501 : "Suba a bordo! Estamos zarpando!",
-    50502 : "Vamos saquear!",
-    50503 : "Vamos navegar até Bilgewater!",
-    50504 : "Vamos navegar até Port Royale.",
-    50505 : "Vamos usar um Mapa do Tesouro!",
-    50506 : "Vamos retornar ao Porto.",
-
-    # Ships
-    50600 : "Bombordo! (esquerda)",
-    50601 : "Estibordo! (direita)",
-    50602 : "Chegando!",
-    50603 : "Costado! Protejam-se!",
-    50604 : "Armar canhões!",
-    50605 : "Disparar!",
-    50606 : "Cessar fogo!",
-    50607 : "Mire no mastro!",
-    50608 : "Mire no casco!",
-    50609 : "Preparar para abordar!",
-    50610 : "Ela está virando de lado!",
-    50611 : "Disparar a toda carga!",
-    50612 : "A toda vela!",
-    50613 : "Arrr! Estamos indo!",
-    50614 : "Está escapando!",
-    50615 : "Temos uma inundação!",
-    50616 : "Não podemos continuar!",
-    50617 : "Precisamos de reparos!",
-    50618 : "Recuar!",
-    50619 : "Homem ao mar!",
-    50620 : "Basta! Uma Esquadra Ligeira imunda!",
+    50300 : "Nice shootin' matey!",
+    50301 : "A well placed blow!",
+    50302 : "Nice shot!",
+    50303 : "Well met!",
+    50304 : "We showed them!",
+    50305 : "Yer not so bad yerself!",
+    50306 : "A fine plunder haul!",
 
     # Card Games
-    52400  : "May luck be my lady.",
-    52401 : "I think these cards be marked!",
+    52400 : "May luck be my lady.",
+    52401 : "I think these cards are marked!",
     52402 : "Blimey cheater!",
 
     # Card Games - Poker
     51900 : "That's a terrible flop!",
-    51901 : "Trying to buy the hand, are ye?",
-    51902 : "Ye be bluffing.",
-    51903 : "I don't think ye had it.",
+    51901 : "Trying to buy the hand, are you?",
+    51902 : "You're bluffing.",
+    51903 : "I don't think you had it.",
     51904 : "Saved by the river.",
 
     # Card Games - Blackjack
     52600 : "Hit me.",
     52601 : "Can I get another dealer?",
 
-    # Minigames
-    # Minigames - Fishing
-    53101 : "I caught a fish!",
-    53102 : "I saw a Legendary Fish!",
-    53103 : "What did you catch?",
-    53104 : "This will make a whale of a tale!",
-    53105 : "That was a beauty!",
-    53106 : "Arr, the sea is treacherous today.",
-    53107 : "What a bountiful haul of fish!",
-    53110 : "Do you have the Legendary Lure?",
-    53111 : "Have you ever caught a Legendary Fish?",
-    53112 : "Can you sail on a fishing boat?",
-    53113 : "Where is the Fishing Master?",
-    53114 : "Have you completed your fish collection?",
-    # Minigames - Cannon Defense
-    53120 : "Fire at my target!",
-    53121 : "Fire at the ship closest to the shore!",
-    53122 : "There's a ship getting away!",
-    53123 : "Fire at the big ships!",
-    53124 : "Fire at the small ships!",
-    53125 : "More are coming!",
-    53126 : "We're not going to last much longer!",
-    53127 : "Shoot the barrels!",
-    53128 : "We've got new ammo!",
-    53129 : "Sturdy defense, mates!",
-    # Minigames - Potion Brewing
-    53141 : "Look at the potion I made!",
-    53142 : "Have you completed your potion collection?",
-    53143 : "Where is the Gypsy?",
-    53144 : "What potion is that?",
-    53145 : "This potion was easy enough.",
-    53146 : "This potion was hard brewin', I tell ye!",
-    # Minigames - Repair
-    53160 : "We need someone to bilge pump!",
-    53161 : "We need someone to scrub!",
-    53162 : "We need someone to saw!",
-    53163 : "We need someone to brace!",
-    53164 : "We need someone to hammer!",
-    53165 : "We need someone to patch!",
-    53166 : "I'll do it!",
-    53167 : "Keep it up, this ship won't repair itself!",
-    53168 : "Great job repairing the ship!",
-
     # Invitations
     52100 : "Want to group up?",
-    52101 : "Join me crew?",
+    52101 : "Join my crew?",
 
     # Invitations - Hunting
     52200 : "Fight some skeletons?",
     52201 : "Fight some crabs?",
 
     # Invitations - Versus
-    52300 : "How 'bout a game of Mayhem?",
-    52301 : "Join me Mayhem game.",
+    52300 : "How about a game of Mayhem?",
+    52301 : "Join my Mayhem game.",
     52302 : "Want to start a Mayhem game?",
     52303 : "Want to start a team battle game?",
-    52304 : "Join me team battle game.",
+    52304 : "Join my team battle game.",
 
-    # Invitations - Minigames
-    52350 : "Join my Cannon Defense.",
-    52351 : "Want to start a Cannon Defense?",
-    52352 : "Can you lend me a hand with Repair?",
-    52353 : "We need to Repair the ship now!",
-    52354 : "Care to catch some fish?",
-    52355 : "Want to go fishing with me?",
-    52356 : "Join me crew for some fishin'?",
-    52357 : "Time to brew some potions!",
-    52358 : "You should try your hand at brewing potions.",
 
     # PLACES - WHERE IS..? - PORT ROYAL (LEGACY)
     52000 : "",
@@ -2634,14 +2802,14 @@ SpeedChatStaticTextPirates = {
     60101 : "Olá!",
     60102 : "Oi!",
     60103 : "Ei!",
-    60104 : "Oi, pessoal!",
-    60105 : "Como é que está?",
+    60104 : "Oi pessoal!",
+    60105 : "Como é que tá?",
     60106 : "Qual é?",
 
     # Bye
     60200 : "Tchau!",
     60201 : "Até mais!",
-    60202 : "Vejo você por aí!",
+    60202 : "Te vejo por aí!",
     60203 : "Volto já!",
     60204 : "Tenho que ir.",
 
@@ -2660,9 +2828,9 @@ SpeedChatStaticTextPirates = {
     # Sad
     60400 : ":-(",
     60401 : "Aahh!",
-    60402 : "Poxa, cara!",
+    60402 : "Pôxa, cara!",
     60403 : "Ai!",
-    60404 : "Poxa!",
+    60404 : "Pôxa!",
 
     # Places
     60500 : "Cadê você?",
@@ -2672,76 +2840,93 @@ SpeedChatStaticTextPirates = {
     60504 : "Vamos para os Piratas do Caribe!",
 
     # Animated Emotes
-    60505 : "Girar moeda",
-    60506 : "Dançar",
-    60507 : "Canto 1",
-    60508 : "Canto 2",
-    60509 : "Dançar animado",
-    60510 : "Dormir",
-    60511 : "Flexionar",
-    60512 : "Tocar Alaúde",
-    60513 : "Tocar Flauta",
-    60514 : "Frustração",
-    60515 : "Procurando",
-    60516 : "Bocejar",
-    60517 : "Ajoelhar",
-    60518 : "Varrer",
-    60519 : "Enfeitar",
-    60520 : "Bocejar",
-    60521 : "Dançar",
-    60522 : "Não",
-    60523 : "Sim",
-    60524 : "Rir",
-    60525 : "Aplaudir",
-    60526 : "Sorrir",
-    60527 : "Raiva",
-    60528 : "Medo",
-    60529 : "Triste",
-    60530 : "Comemorar",
-    60668 : "Comemorar",
-    60669 : "Dormir",
-    60602 : "Furioso",
-    60614 : "Aplaudir",
-    60622 : "Assustado",
-    60640 : "Rir",
-    60652 : "Triste",
-    60657 : "Sorrir",
-    60664 : "Acenar",
-    60665 : "Piscar",
-    60666 : "Bocejar",
-    60669 : "Dormir",
-    60670 : "Dançar",
-    60676 : "Flertar",
-    60677 : "Dança do Zumbi",
-    60678 : "Barulhento",
+    60505 : "Flip coin",
+    60506 : "Dance",
+    60507 : "Chant 1",
+    60508 : "Chant 2",
+    60509 : "Dance a jig",
+    60510 : "Sleep",
+    60511 : "Flex",
+    60512 : "Play Lute",
+    60513 : "Play Flute",
+    60514 : "Frustrated",
+    60515 : "Searching",
+    60516 : "Yawn",
+    60517 : "Kneel",
+    60518 : "Sweep",
+    60519 : "Primp",
+    60520 : "Yawn",
+    60521 : "Dance",
+    60522 : "No",
+    60523 : "Yes",
+    60524 : "Laugh",
+    60525 : "Clap",
+    60526 : "Smile",
+    60527 : "Anger",
+    60528 : "Fear",
+    60529 : "Sad",
+    60530 : "Celebrate",
+    60668 : "Celebrate",
+    60669 : "Sleep",
+    60602 : "Angry",
+    60614 : "Clap",
+    60622 : "Scared",
+    60640 : "Laugh",
+    60652 : "Sad",
+    60657 : "Smile",
+    60664 : "Wave",
+    60665 : "Wink",
+    60666 : "Yawn",
+    60669 : "Sleep",
+    60670 : "Dance",
+    60676 : "Flirt",
 
     # Valentines day emote string options
-    60671 : "Olá, sou um Pirata e estou aqui para roubar seu coração.",
-    60672 : "Acabo de encontrar o tesouro que procurava.",
-    60673 : "Se você fosse uma meleca te pegava primeiro.",
-    60674 : "Vem sempre aqui em Tortuga?",
-    60675 : "Você tem um mapa? Acabo de me perder em seu olhar.",
+    60671 : "Hello, I'm a Pirate, and I'm here to steal your heart.",
+    60672 : "I just found the treasure I've been searching for.",
+    60673 : "If you were a booger, I'd pick you first.",
+    60674 : "Come to Tortuga often?",
+    60675 : "Do you have a map?  I just keep getting lost in your eyes.",
 
     65000 : "Sim",
     65001 : "Não",
-
-    60909 : "Check Hand",
+    
+    # Phrases for April Toon's week    
+    60100 : "Happy April Toons' Day!",
+    60101 : "Happy April Toons' Week!",
+    60102 : "Welcome to my April Toons' Day party!",
+    60103 : "Welcome to my April Toons' Week party!",
+    60110 : "Watch how far I can jump.",
+    60111 : "Wow, you jumped really far!",
+    60112 : "Hey, Doodles can talk!",
+    60113 : "Did your Doodle just talk?",
+    60120 : "Where's Mickey?",
+    60121 : "Where's Minnie?",
+    60122 : "Where's Pluto?",
+    60123 : "Where's Donald?",
+    60124 : "Where's Goofy?",
+    60125 : "Where's Daisy?",
+    60130 : "In Daisy's Garden.",
+    60131 : "In Toontown Central.",
+    60132 : "In The Brrrgh.",
+    60133 : "In Minnie's Melodyland.",
+    60134 : "In Goofy's Speedway.",
+    60135 : "In Donald's Dreamland.",
+    61040 : "Wow, look where that kart landed!",
     }
 
-SpeedChatStaticText = SpeedChatStaticTextCommon
-
 # Emote IDs - These are used in SC to determine if a msg is a animated emote
-Emotes_Root = "EMOÇÕES"
+Emotes_Root = "EMOTES"
 Emotes_Dances = "Danças"
 Emotes_General = "Geral"
-Emotes_Music = "Música"
+Emotes_Music = "Musica"
 Emotes_Expressions = "Emoções"
-Emote_ShipDenied = "Não é possível se emocionar ao navegar."
-Emote_MoveDenied = "Não é possível se emocionar ao mover-se."
-Emote_CombatDenied = "Não é possível se emocionar ao lutar."
-Emote_CannonDenied = "Não é possível se emocionar ao usar um canhão."
-Emote_SwimDenied = "Não é possível se emocionar ao nadar."
-Emote_ParlorGameDenied = "Não é possível se emocionar durante um jogo de salão."
+Emote_ShipDenied = "Cannot emote while sailing."
+Emote_MoveDenied = "Cannot emote while moving." 
+Emote_CombatDenied = "Cannot emote while in combat."
+Emote_CannonDenied = "Cannot emote while using a cannon."
+Emote_SwimDenied = "Cannot emote while swimming."
+Emote_ParlorGameDenied = "Cannot emote while playing a parlor game."
 Emotes = (60505, 60506, 60509, 60510, 60511, 60516, 60519, 60520, 60521, 60522, 60523, 60524, 60525, 60526, 60527, 60528, 60529, 60530, 60602, 60668, 60614, 60622, 60640, 60644, 60652, 60657, 60664, 60665, 60666, 60669, 60612, 60661, 60645, 60629, 60641, 60654, 60630, 60670, 60633,
           # Valentines Day Emote
           60676,
@@ -2754,8 +2939,6 @@ Emotes = (60505, 60506, 60509, 60510, 60511, 60516, 60519, 60520, 60521, 60522, 
 SCFactoryMeetMenuIndexes = (1903, 1904, 1906, 1907, 1908, 1910, 1913,
                             1915, 1916, 1917, 1919, 1922, 1923,
                             1924, 1932, 1940, 1941)
-
-
 # CustomSCStrings: SpeedChat phrases available for purchase.  It is
 # safe to remove entries from this list, which will disable them for
 # use from any toons who have already purchased them.  Note that the
@@ -3173,11 +3356,6 @@ CustomSCStrings = {
     12014 : "Batatinha quando nasce...",
     12015 : "Esparrama pelo chão...",
     12016 : "Que gracinha!",
-    12050 : "EU AMO acabar com Cogs!",
-    12051 : "Você é um estouro!",
-    12052 : "Só tenho olhos para você!",
-    12053 : "Você é mais doce do que uma bala!",
-    12054 : "Eu ADORARIA ter você em minha Festa Dia dos namorados!",
 
     # St. Patricks Day
     13000 : "Tenho você no coração!",
@@ -3244,52 +3422,47 @@ SCMenuCustomCogIndices = {
     'bw' : (20299, 20308),
     'ls' : (20309, 20319),
     'rb' : (20320, 20329),
-    'sc' : (20330, 20340),
+    'sc' : (20330, 20331),
     'sd' : (20341, 20350),
     }
 
 
 # Pirates Speedchat
-PSCMenuGreetings = "CUMPRIMENTOS"
-PSCMenuGoodbyes = "DESPEDIDAS"
-PSCMenuFriendly = "AMIGÁVEL"
-PSCMenuHappy = "FELIZ"
-PSCMenuSad = "TRISTE"
-PSCMenuSorry = "DESCULPA"
-PSCMenuCombat = "COMBATE"
-PSCMenuSeaCombat = "COMBATE NO MAR"
+PSCMenuExpressions = "EXPRESSÕES"
+PSCMenuGreetings = "GREETINGS"
+PSCMenuGoodbyes = "GOODBYES"
+PSCMenuFriendly = "FRIENDLY"
+PSCMenuHappy = "HAPPY"
+PSCMenuSad = "SAD"
+PSCMenuSorry = "SORRY"
+PSCMenuCombat = "COMBAT"
+PSCMenuSeaCombat     = "SEA COMBAT"
 PSCMenuPlaces = "LUGARES"
-PSCMenuLetsSail = "VAMOS\\NAVEGAR..."
-PSCMenuLetsHeadTo = "VAMOS\\PARA..."
+PSCMenuLetsSail = "LET\'S SAIL..."
+PSCMenuLetsHeadTo = "LET\'S HEAD TO..."
 PSCMenuHeadToPortRoyal = "PORT ROYAL"
-PSCMenuWhereIs = "ONDE ESTÁ ..?"
+PSCMenuWhereIs = "WHERE IS ..?"
 PSCMenuWhereIsPortRoyal = "PORT ROYAL"
 PSCMenuWhereIsTortuga = "TORTUGA"
 PSCMenuWhereIsPadresDelFuego = "PADRES DEL FUEGO"
 PSCMenuWhereIsLasPulgas = "LAS PULGAS"
 PSCMenuWhereIsLosPadres = "LOS PADRES"
-PSCMenuDirections = "DIREÇÕES"
+PSCMenuDirections = "DIRECTIONS"
 PSCMenuInsults = "INSULTOS"
-PSCMenuCompliments = "ELOGIOS"
-PSCMenuCardGames = "JOGOS DE CARTAS"
-PSCMenuPoker = "PÔQUER"
-PSCMenuBlackjack = "VINTE E UM"
-PSCMenuMinigames = "MINIGAMES"
-PSCMenuFishing = "FISHING"
-PSCMenuCannonDefense = "CANNON DEFENSE"
-PSCMenuPotions = "POTION BREWING"
-PSCMenuRepair = "REPAIR"
-PSCMenuInvitations = "CONVITES"
+PSCMenuCompliments = "COMPLIMENTS" # TODO
+PSCMenuCardGames  = "CARD GAMES"
+PSCMenuPoker = "POKER"
+PSCMenuBlackjack = "BLACKJACK"
+PSCMenuInvitations = "INVITATIONS"
 PSCMenuVersusPlayer = "VERSUS"
-PSCMenuHunting = "PERSEGUIÇÃO"
-PSCMenuQuests = "MISSÕES"
-PSCMenuGM = "GM"
+PSCMenuHunting = "HUNTING"
+PSCMenuQuests = "QUESTS"
 
 
 
 # Grandfathered Speedchat Headers
-PSCMenuShips = "NAVIOS"
-PSCMenuAdventures = "AVENTURA"
+PSCMenuShips      = "SHIPS"
+PSCMenuAdventures = "ADVENTURE"
 
 
 # Gateway Speedchat
@@ -3343,16 +3516,16 @@ NCTooShort = 'Este nome é muito curto.'
 NCNoDigits = 'O nome não pode conter números.'
 NCNeedLetters = 'Cada palavra do nome deve conter algumas letras.'
 NCNeedVowels = 'Cada palavra do nome deve conter algumas vogais.'
-NCAllCaps = 'O seu nome não pode estar todo em maiúsculas.'
-NCMixedCase = 'Este nome tem muitas letras em minúsculas.'
+NCAllCaps = 'O seu nome não pode estar todo em maiúscula.'
+NCMixedCase = 'Este nome tem muitas letras em minúscula.'
 NCBadCharacter = "O seu nome não pode conter o caractere '%s'"
 NCRepeatedChar = "Your name has too many of the character '%s'"
 NCGeneric = 'Sinto muito, este nome não vai funcionar.'
 NCTooManyWords = 'O seu nome não pode ter mais de quatro palavras.'
-NCDashUsage = ("Hifens podem ser usados apenas para ligar duas palavras (como em 'Bu-Bu').")
+NCDashUsage = ("Hífens podem ser usados apenas para ligar duas palavras (como em 'Bu-Bu').")
 NCCommaEdge = "O seu nome não pode começar ou terminar com vírgula."
 NCCommaAfterWord = "Você não pode começar uma palavra com vírgula."
-NCCommaUsage = ('Este nome não usa vírgulas corretamente. As vírgulas devemintercalar duas palavras, como no nome "Dr. Quack, MD".As vírgulas devem também ser seguidas por um espaço.')
+NCCommaUsage = ('Este nome não usa vírgulas corretamente. As vírgulas devem juntar duas palavras, como no nome "Dr. Quack, MD". As vírgulas devem também ser seguidas por um espaço.')
 NCPeriodUsage = ('Este nome não usa pontos corretamente. Os pontos são permitidos somente em palavras como "Sr.", "Sra.", "J.P." etc.')
 NCApostrophes = 'Este nome tem muitos apóstrofos.'
 
@@ -3405,20 +3578,20 @@ KartRacingMenuSections = [
 
 AprilToonsMenuSections = [
  -1,
- "CUMPRIMENTOS",
- "PROPRIEDADE",
- "PERGUNTAS",
- "RESPOSTAS"
+ "GREETINGS",
+ "PLAYGROUNDS",
+ "CHARACTERS",
+ "ESTATES"
 ]
 
 SillyHolidayMenuSections = [
  -1,
- "Mundo",
- "Batalha",
+ "WORLD",
+ "BATTLE",
 ]
 
 CarolMenuSections = [
- -1
+ -1,
 ]
 
 VictoryPartiesMenuSections = [
@@ -3429,47 +3602,49 @@ VictoryPartiesMenuSections = [
 
 GolfMenuSections = [
  -1,
+ "COURSES",
+ "TIPS",
+ "COMMENTS",
+]
+
+
+SellbotNerfMenuSections = [
+ -1, 
+ 'GROUPING', 
+ 'SELLBOT TOWERS/VP',
+]
+
+GolfMenuSections = [
+ -1,
  "PERCURSOS",
  "DICAS",
  "COMENTÁRIOS",
 ]
 
 BoardingMenuSections = [
-"GRUPO",
-"Vamos para...",
-"Estamos indo para...",
+"GROUP",
+"Let's go to...",
+"We're going to...",
 -1,
 ]
 
-SellbotNerfMenuSections = [
- -1,
- 'REUNINDO',
- 'TORRES/VP Robô Vendedor',
-]
-
-LawbotNerfMenuSections = [
- -1,
- 'REUNINDO',
- 'COURTHOUSE/CJ',
-]
-
-JellybeanJamMenuSections = [
- 'OBTER BALINHAS',
- 'GASTAR BALINHAS',
-# 'GRUPOS DE BALINHAS',
-]
-
 WinterMenuSections = [
- 'CANÇÕES NATALINAS',
+ 'CAROLING', 
  -1,
 ]
-
+ 
 HalloweenMenuSections = [
  -1
 ]
 
 SingingMenuSections = [
  -1
+]
+
+SellbotNerfMenuSections = [
+ -1, 
+ 'GROUPING', 
+ 'SELLBOT TOWERS/VP',
 ]
 
 WhiteListMenu = [
@@ -3497,23 +3672,22 @@ TTAccountCallCustomerService = "Favor entrar em contato com o Atendimento ao Con
 TTAccountCustomerServiceHelp = "\nSe precisar de ajuda, favor entrar em contato com o Atendimento ao Comsumidor em %s."
 TTAccountIntractibleError = "Um erro ocorreu."
 
-
 def timeElapsedString(timeDelta):
     timeDelta = abs(timeDelta)
     if timeDelta.days > 0:
         if timeDelta.days == 1:
-            return "1 dia atrás"
+            return "1 day ago"
         else:
-            return "%s dias atrás" % timeDelta.days
+            return "%s days ago" % timeDelta.days
 
     elif timeDelta.seconds / 3600 > 0:
         if timeDelta.seconds / 3600 == 1:
-            return "1 hora atrás"
+            return "1 hour ago"
         else:
-            return "%s horas atrás" % (timeDelta.seconds / 3600)
+            return "%s hours ago" % (timeDelta.seconds / 3600)
 
     else:
         if timeDelta.seconds / 60 < 2:
-            return "1 minuto atrás"
+            return "1 minute ago"
         else:
-            return "%s minutos atrás" % (timeDelta.seconds / 60)
+            return "%s minutes ago" % (timeDelta.seconds / 60)
