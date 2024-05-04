@@ -699,7 +699,7 @@ SCMenuBattleTaunts = "PROVOCAÇÕES"
 SCMenuBattleStrategy = "ESTRATÉGIA"
 SCMenuBoardingGroup = "ABORDAGEM"
 SCMenuParties = "FESTAS"
-SCMenuAprilToons = "TOONS  MENTIROSOS"
+SCMenuAprilToons = "TOONS DE ABRIL"
 SCMenuSingingGroup = "CANTORIA"
 SCMenuCarol = "CANTANDO"
 SCMenuSillyHoliday = "MEDIDOR DE BOBAGEM"
@@ -708,10 +708,9 @@ SCMenuSellbotNerf  = "TEMPESTADE DOS RÔBOS VENDEDORES"
 SCMenuJellybeanJam = "SEMANA DAS BALINHAS"
 SCMenuHalloween = "DIA DAS BRUXAS"
 SCMenuWinter = "INVERNO"
-SCMenuSellbotInvasion = "INVASÃO DOS RÔBOS VENDEFLDORES"
+SCMenuSellbotInvasion = "INVASÃO DOS RÔBOS VENDEDORES"
 SCMenuFieldOffice = "ESCRITÓRIOS DE CAMPO"
 SCMenuIdesOfMarch = "VERDE"
-SCMenuLawbotNerf = "RÔBOS DA LEI PERDEDORES"
 
 # FriendSecret.py
 FriendSecretNeedsPasswordWarningTitle = "Controles disponíveis aos pais"
@@ -721,22 +720,22 @@ FriendSecretNeedsPasswordWarningOK = lOK
 FriendSecretNeedsPasswordWarningCancel = lCancel
 FriendSecretNeedsPasswordWarningWrongUsername = """Esse não é o nome de usuário correto. Digite o nome de usuário da conta de pais. Esse não é o mesmo nome de usuário que é usado para jogar."""
 FriendSecretNeedsPasswordWarningWrongPassword = """Esta não é a senha correta. Insira a Senha da conta dos pais criada na compra desta conta. Não é a mesma senha usada para os jogos."""
-FriendSecretIntro = "Se você estiver jogando Toontown Online da Disney com alguém que conhece no mundo real, poderá tornar-se Amigo verdadeiro dessa pessoa. Você pode conversar com seus Amigos verdadeiros usando o teclado. Os outros Toons não entenderão o que vocês estiverem falando.\n\nVocê pode conseguir isto obtendo um segredo. Conte o código de amigo verdadeiro só ao seu amigo, e a mais ninguém. Quando o seu amigo digitar o seu segredo na tela, vocês dois serão Amigos verdadeiros em Toontown!"
+FriendSecretIntro = "Se você estiver jogando Toontown Online da Disney com alguém que conhece no mundo real, poderá tornar-se Amigo verdadeiro dessa pessoa. Você pode conversar com seus Amigos verdadeiros usando o teclado. Os outros Toons não entenderão o que vocês estiverem falando.\n\nVocê pode conseguir isto obtendo um código de amigo verdadeiro. Conte o código de amigo verdadeiro só ao seu amigo, e a mais ninguém. Quando o seu amigo digitar o seu código de amigo verdadeiro na tela, vocês dois serão Amigos verdadeiros em Toontown!"
 FriendSecretGetSecret = "Obter um código de amigo verdadeiro"
 FriendSecretEnterSecret = "Se você tiver um código de amigo verdadeiro de alguém conhecido, digite-o aqui."
 FriendSecretOK = lOK
 FriendSecretEnter = "Inserir código de amigo verdadeiro"
 FriendSecretCancel = lCancel
-FriendSecretGettingSecret = "Obtendo segredo. . ."
-FriendSecretGotSecret = "Este é o seu novo segredo. Não deixe de anotá-lo em algum lugar!\n\nVocê só pode dar este segredo a uma pessoa. Depois que alguém digitar o seu segredo, ele não funcionará para nenhuma outra pessoa. Se você quiser dar um segredo para mais de uma pessoa, obtenha outro.\n\nO segredo só funcionará nos próximos dois dias. O seu amigo terá que digitá-lo antes que expire, caso contrário, não funcionará.\n\nO segredo é:"
-FriendSecretTooMany = "Sinto muito, você não pode ter mais segredos hoje. Você já obteve mais do que a parte que lhe cabia!\n\nTente novamente amanhã."
-FriendSecretTryingSecret = "Tentando usar segredo. . ."
+FriendSecretGettingSecret = "Obtendo código de amigo verdadeiro. . ."
+FriendSecretGotSecret = "Este é o seu novo código de amigo verdadeiro. Não deixe de anotá-lo em algum lugar!\n\nVocê só pode dar este código de amigo verdadeiro a uma pessoa. Depois que alguém digitar o seu código de amigo verdadeiro, ele não funcionará para nenhuma outra pessoa. Se você quiser dar um código de amigo verdadeiro para mais de uma pessoa, obtenha outro.\n\nO código de amigo verdadeiro só funcionará nos próximos dois dias. O seu amigo terá que digitá-lo antes que expire, caso contrário, não funcionará.\n\nO código de amigo verdadeiro é:"
+FriendSecretTooMany = "Sinto muito, você não pode ter mais códigos de amigo verdadeiro hoje. Você já obteve mais do que a parte que lhe cabia!\n\nTente novamente amanhã."
+FriendSecretTryingSecret = "Tentando usar código de amigo verdadeiro. . ."
 FriendSecretEnteredSecretSuccess = "Agora, você é Amigo Verdadeiro de %s!"
-FriendSecretTimeOut = "Sorry, secrets are not working right now."
-FriendSecretEnteredSecretUnknown = "Este segredo não existe. Tem certeza de que digitou certo?\n\nSe você tiver digitado certo, ele pode ter expirado. Peça ao seu amigo para pegar outro segredo para você (ou pegue um novo você mesmo e dê ao seu amigo)."
+FriendSecretTimeOut = "Sinto muito, os segredos não estão funcionando no momento."
+FriendSecretEnteredSecretUnknown = "Este código de amigo verdadeiro não existe. Tem certeza de que digitou certo?\n\nSe você tiver digitado certo, ele pode ter expirado. Peça ao seu amigo para pegar outro código de amigo verdadeiro para você (ou pegue um novo você mesmo e dê ao seu amigo)."
 FriendSecretEnteredSecretFull = "Você não pode fazer amizade com %s porque um de vocês dois possui amigos demais na lista."
 FriendSecretEnteredSecretFullNoName = "Vocês não podem fazer amizade porque um de vocês dois possui amigos demais na lista."
-FriendSecretEnteredSecretSelf = "Você acabou de digitar seu próprio segredo! Agora, ninguém mais poderá usar este segredo."
+FriendSecretEnteredSecretSelf = "Você acabou de digitar seu próprio código de amigo verdadeiro! Agora, ninguém mais poderá usar este código de amigo verdadeiro."
 FriendSecretEnteredSecretWrongProduct = "Você digitou o tipo errado de Código de Amigo Verdadeiro.\nEste jogo utiliza códigos que começam com '%s'."
 FriendSecretNowFriends = "Agora, você é Amigo Verdadeiro de %s!"
 FriendSecretNowFriendsNoName = "Agora, vocês são Amigos verdadeiros!"
@@ -744,7 +743,7 @@ FriendSecretDetermineSecret = "Que tipo de Amigo Verdadeiro você quer ter?"
 FriendSecretDetermineSecretAvatar = "Avatar"
 FriendSecretDetermineSecretAvatarRollover = "Um amigo somente neste jogo"
 FriendSecretDetermineSecretAccount = "Conta"
-FriendSecretDetermineSecretAccountRollover = "Um amigo em toda a rede Disney.com"
+FriendSecretDetermineSecretAccountRollover = "Um amigo em toda a rede Disney.com.br"
 
 # GuildMember.py
 GuildMemberTitle = "Opções do Membro"
@@ -761,7 +760,7 @@ GuildMemberOffline = "%s ficou off-line."
 GuildPrefix = "(G):"
 GuildNewMember = "Novo Mestre(a) da Guilda"
 GuildMemberUnknown = "Desconhecido"
-GuildMemberGMMessage = "Aviso!  Você gostaria de desistir da liderança de sua guilda e tornar %s seu mestre da guilda?\n\nVocê se tornará um oficial"
+GuildMemberGMMessage = "Aviso! Você gostaria de desistir da liderança de sua guilda e tornar %s seu mestre da guilda?\n\nVocê se tornará um oficial"
 
 # GuildInvitee.py
 GuildInviteeOK = lOK
@@ -3436,7 +3435,7 @@ PSCMenuHappy = "HAPPY"
 PSCMenuSad = "SAD"
 PSCMenuSorry = "SORRY"
 PSCMenuCombat = "COMBAT"
-PSCMenuSeaCombat     = "SEA COMBAT"
+PSCMenuSeaCombat = "SEA COMBAT"
 PSCMenuPlaces = "LUGARES"
 PSCMenuLetsSail = "LET\'S SAIL..."
 PSCMenuLetsHeadTo = "LET\'S HEAD TO..."
@@ -3450,19 +3449,25 @@ PSCMenuWhereIsLosPadres = "LOS PADRES"
 PSCMenuDirections = "DIRECTIONS"
 PSCMenuInsults = "INSULTOS"
 PSCMenuCompliments = "COMPLIMENTS" # TODO
-PSCMenuCardGames  = "CARD GAMES"
-PSCMenuPoker = "POKER"
+PSCMenuCardGames  = "JOGOS DE CARTAS"
+PSCMenuPoker = "PÓQUER"
 PSCMenuBlackjack = "BLACKJACK"
+PSCMenuMinigames = "MINIGAMES"
+PSCMenuFishing = "PESCARIA"
+PSCMenuCannonDefense = "DEFESA DE CANHÃO"
+PSCMenuPotions = "PREPARAÇÃO DE POÇÕES"
+PSCMenuRepair = "REPAROS"
 PSCMenuInvitations = "INVITATIONS"
 PSCMenuVersusPlayer = "VERSUS"
 PSCMenuHunting = "HUNTING"
 PSCMenuQuests = "QUESTS"
+PSCMenuGM = "GM"
 
 
 
 # Grandfathered Speedchat Headers
-PSCMenuShips      = "SHIPS"
-PSCMenuAdventures = "ADVENTURE"
+PSCMenuShips = "NAVES"
+PSCMenuAdventures = "AVENTURA"
 
 
 # Gateway Speedchat
@@ -3542,7 +3547,7 @@ AvatarDetailPanelOffline = "Região: off-line\nLocal: off-line"
 # AvatarPanel.py
 AvatarPanelFriends = "Amigos"
 AvatarPanelWhisper = "Cochichar"
-AvatarPanelSecrets = "Segredos"
+AvatarPanelSecrets = "Amigos Verdadeiros"
 AvatarPanelGoTo = "Ir para"
 AvatarPanelIgnore = "Ignorar"
 AvatarPanelStopIgnore = "Parar de Ignorar"
@@ -3578,16 +3583,16 @@ KartRacingMenuSections = [
 
 AprilToonsMenuSections = [
  -1,
- "GREETINGS",
+ "CUMPRIMENTOS",
  "PLAYGROUNDS",
- "CHARACTERS",
- "ESTATES"
+ "PERSONAGENS",
+ "PROPRIEDADES"
 ]
 
 SillyHolidayMenuSections = [
  -1,
- "WORLD",
- "BATTLE",
+ "MUNDO",
+ "BATALHA",
 ]
 
 CarolMenuSections = [
@@ -3596,22 +3601,8 @@ CarolMenuSections = [
 
 VictoryPartiesMenuSections = [
  -1,
- "PARTY",
- "ITEMS",
-]
-
-GolfMenuSections = [
- -1,
- "COURSES",
- "TIPS",
- "COMMENTS",
-]
-
-
-SellbotNerfMenuSections = [
- -1, 
- 'GROUPING', 
- 'SELLBOT TOWERS/VP',
+ "FESTA",
+ "ITENS",
 ]
 
 GolfMenuSections = [
@@ -3622,14 +3613,14 @@ GolfMenuSections = [
 ]
 
 BoardingMenuSections = [
-"GROUP",
-"Let's go to...",
-"We're going to...",
+"GRUPO",
+"Vamos para...",
+"Estamos indo para...",
 -1,
 ]
 
 WinterMenuSections = [
- 'CAROLING', 
+ 'CANTANDO', 
  -1,
 ]
  
@@ -3643,8 +3634,8 @@ SingingMenuSections = [
 
 SellbotNerfMenuSections = [
  -1, 
- 'GROUPING', 
- 'SELLBOT TOWERS/VP',
+ 'REUNINDO', 
+ 'TORRES DO RÔBO VENDEDOR/VP',
 ]
 
 WhiteListMenu = [
@@ -3676,18 +3667,18 @@ def timeElapsedString(timeDelta):
     timeDelta = abs(timeDelta)
     if timeDelta.days > 0:
         if timeDelta.days == 1:
-            return "1 day ago"
+            return "1 dia atrás"
         else:
-            return "%s days ago" % timeDelta.days
+            return "%s dias atrás" % timeDelta.days
 
     elif timeDelta.seconds / 3600 > 0:
         if timeDelta.seconds / 3600 == 1:
-            return "1 hour ago"
+            return "1 hora atrás"
         else:
-            return "%s hours ago" % (timeDelta.seconds / 3600)
+            return "%s horas atrás" % (timeDelta.seconds / 3600)
 
     else:
         if timeDelta.seconds / 60 < 2:
-            return "1 minute ago"
+            return "1 minuto atrás"
         else:
-            return "%s minutes ago" % (timeDelta.seconds / 60)
+            return "%s minutos atrás" % (timeDelta.seconds / 60)
